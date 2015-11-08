@@ -34,7 +34,7 @@ The current version follows the block layout described in Nosek et al. (2007: th
 - Block 7 (both reversed) 40 Trials (2 loops of 20)
 
 # Known issues
-1. If participants get 100% of trials correct on either blocks 3&4 or 6&7 then one of two incorrect response RT columns will not be created for that participant. However, this is not a problem if you merge files across participants based on column header matching (e.g., using plyr’s `rbind()` command). However, it can be problematic if your data processing workflow relies on column ORDER rather than column header NAME, e.g., a SPSS script using a GET command.
+1. If participants get 100% of trials correct on either blocks 3&4 or 6&7 then one of two incorrect response RT columns will not be created for that participant. However, this is not a problem if you merge files across participants based on column header matching (e.g., using dplyr’s `rbind_list()` command). However, it can be problematic if your data processing workflow relies on column ORDER rather than column header NAME, e.g., a SPSS script using a GET command.
 
 # Known issues
 0.9.1
