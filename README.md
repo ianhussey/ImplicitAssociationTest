@@ -11,6 +11,7 @@ Written in PsychoPy 1.82.01
 
 ## Notes
 - The current version employs pictures as category stimuli and words as labels. However, this implimentation is capable of displaying any combination of words and/or images for either category: just edit the highlighted rows in the excel files. stimuli files appropriately. NB "empty" cells must actually contain a single space (i.e., " ") or Psychopy will throw an undefined variable error.
+- Images are from Millisecond's Affective Misatribution Task distribution.
 - High fidelity to the IAT procedure described in Nosek et al. (2007: the IAT at 7) and to the standard IAT script provided by Millisecond for Inquisit. IMHO, fidelity is higher than other freely available alternatives, such as the FreeIAT or OpenIAT (e.g., the latter has a different block layout, and also uses a combination of free responding and accuracy feedback, where the IAT almost invariably uses one or the other but not both).
 - The order of presentation of blocks within the task (e.g., whether participants get death-self or life-self first) is determined by the "block order" variable in the popup box. Use "1" or "2". 
 - The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.
