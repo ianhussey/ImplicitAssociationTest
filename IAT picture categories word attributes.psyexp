@@ -23,10 +23,32 @@
   </Settings>
   <Routines>
     <Routine name="trial">
-      <TextComponent name="stimulusAbox">
+      <ImageComponent name="stimulusImage">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="stimulusImage" valType="code" updates="None"/>
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.3" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="$imageStimulus" valType="str" updates="set every repeat"/>
+        <Param name="size" val=".6" valType="code" updates="constant"/>
+      </ImageComponent>
+      <TextComponent name="stimulusBox">
         <Param name="opacity" val="1" valType="code" updates="constant"/>
         <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="stimulusAbox" valType="code" updates="None"/>
+        <Param name="name" val="stimulusBox" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="$stimulusColour" valType="str" updates="set every repeat"/>
         <Param name="text" val="$stimulus" valType="str" updates="set every repeat"/>
@@ -253,9 +275,9 @@
         <Param name="startEstim" val="" valType="code" updates="None"/>
         <Param name="discard previous" val="False" valType="bool" updates="constant"/>
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="'space'" valType="code" updates="constant"/>
+        <Param name="allowedKeys" val="'e', 'i'" valType="code" updates="constant"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.3" valType="code" updates="None"/>
+        <Param name="startVal" val="1" valType="code" updates="None"/>
         <Param name="store" val="nothing" valType="str" updates="constant"/>
       </KeyboardComponent>
       <TextComponent name="target1box_inst">

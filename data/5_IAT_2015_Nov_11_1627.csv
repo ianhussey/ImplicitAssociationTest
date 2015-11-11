@@ -1,0 +1,501 @@
+orStimulus,instruction,nBlockRepeats,attribute2,attribute1,target2,block,target1,stimulusColour,stimulus,feedbackResponse,feedbackAllowed,trialtype,requiredResponse,requiredAllowed,imageStimulus,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,requiredResponse.keys,requiredResponse.corr,requiredResponse.rt,feedbackResponse.keys,feedbackResponse.corr,participant,gender,age,block order,frameRate,expName,date,group,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Lovely,i,i,3,e,e,blank.png,0,0,0,0,0,0,0,4,e,0,0.0556080341339,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Attractive,i,i,3,e,e,blank.png,0,0,0,0,0,1,1,0,e,0,0.0557818412781,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Disgust,e,e,4,i,i,blank.png,0,0,0,0,0,2,2,8,i,0,0.02108502388,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Awful,e,e,4,i,i,blank.png,0,0,0,0,0,3,3,5,i,0,0.0859990119934,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Likeable,i,i,3,e,e,blank.png,0,0,0,0,0,4,4,3,e,0,0.0725870132446,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Favorable,i,i,3,e,e,blank.png,0,0,0,0,0,5,5,2,e,0,0.0264649391174,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Enjoy,i,i,3,e,e,blank.png,0,0,0,0,0,6,6,1,e,0,0.0273950099945,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Despise,e,e,4,i,i,blank.png,0,0,0,0,0,7,7,6,i,0,0.0748128890991,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Nasty,e,e,4,i,i,blank.png,0,0,0,0,0,8,8,9,i,0,0.0279240608215,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Dirty,e,e,4,i,i,blank.png,0,0,0,0,0,9,9,7,i,0,0.0742330551147,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Likeable,i,i,3,e,e,blank.png,0,0,0,0,1,0,10,3,e,0,0.0302710533142,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Despise,e,e,4,i,i,blank.png,0,0,0,0,1,1,11,6,i,0,0.0723230838776,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Attractive,i,i,3,e,e,blank.png,0,0,0,0,1,2,12,0,e,0,0.0278668403625,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Disgust,e,e,4,i,i,blank.png,0,0,0,0,1,3,13,8,i,0,0.0735759735107,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Lovely,i,i,3,e,e,blank.png,0,0,0,0,1,4,14,4,e,0,0.0291330814362,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Favorable,i,i,3,e,e,blank.png,0,0,0,0,1,5,15,2,e,0,0.0685830116272,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Enjoy,i,i,3,e,e,blank.png,0,0,0,0,1,6,16,1,e,0,0.0116419792175,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Dirty,e,e,4,i,i,blank.png,0,0,0,0,1,7,17,7,i,0,0.0298597812653,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Nasty,e,e,4,i,i,blank.png,0,0,0,0,1,8,18,9,i,0,0.0251491069794,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",2,Unpleasant,Pleasant, ,Ablock1.xlsx, ,"[-1, 1, -1]",Awful,e,e,4,i,i,blank.png,0,0,0,0,1,9,19,5,i,0,0.0771870613098,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,0,1,1,1,0,0,0,0,e,0,0.0297658443451,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,0,1,1,1,0,1,1,6,i,0,0.0320439338684,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,0,1,1,1,0,2,2,7,i,0,0.0460879802704,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,0,1,1,1,0,3,3,3,e,0,0.0318400859833,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,0,1,1,1,0,4,4,9,i,0,0.0484218597412,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,0,1,1,1,0,5,5,5,i,0,0.0345530509949,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,0,1,1,1,0,6,6,4,e,0,0.0281801223755,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,0,1,1,1,0,7,7,1,e,0,0.0432410240173,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,0,1,1,1,0,8,8,2,e,0,0.0305421352386,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,0,1,1,1,0,9,9,8,i,0,0.0484790802002,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,0,1,1,1,1,0,10,9,i,0,0.0350179672241,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,0,1,1,1,1,1,11,2,e,0,0.0284869670868,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,0,1,1,1,1,2,12,8,i,0,0.0516707897186,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,0,1,1,1,1,3,13,4,e,0,0.0305850505829,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,0,1,1,1,1,4,14,0,e,0,0.0292029380798,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,0,1,1,1,1,5,15,5,i,0,0.0518410205841,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,0,1,1,1,1,6,16,3,e,0,0.0298368930817,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,0,1,1,1,1,7,17,7,i,0,0.0515999794006,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,0,1,1,1,1,8,18,1,e,0,0.0316169261932,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+ ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2, , ,Chinese characters,Ablock2.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,0,1,1,1,1,9,19,6,i,0,0.030345916748,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Dirty,e,e,4,i,i,blank.png,0,2,2,2,0,0,0,17,i,0,0.0298640727997,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,0,2,2,2,0,1,1,9,i,0,0.0239388942719,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,0,2,2,2,0,2,2,0,e,0,0.0265688896179,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Disgust,e,e,4,i,i,blank.png,0,2,2,2,0,3,3,18,i,0,0.0836369991302,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,0,2,2,2,0,4,4,8,i,0,0.0214960575104,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,0,2,2,2,0,5,5,4,e,0,0.0396938323975,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Attractive,i,i,3,e,e,blank.png,0,2,2,2,0,6,6,10,e,0,0.0668179988861,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Lovely,i,i,3,e,e,blank.png,0,2,2,2,0,7,7,14,e,0,0.0202479362488,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,0,2,2,2,0,8,8,5,i,0,0.0242040157318,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,0,2,2,2,0,9,9,1,e,0,0.0426299571991,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,0,2,2,2,0,10,10,2,e,0,0.0317440032959,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,0,2,2,2,0,11,11,3,e,0,0.0275719165802,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Nasty,e,e,4,i,i,blank.png,0,2,2,2,0,12,12,19,i,0,0.0309729576111,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,0,2,2,2,0,13,13,6,i,0,0.0238890647888,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Despise,e,e,4,i,i,blank.png,0,2,2,2,0,14,14,16,i,0,0.0637230873108,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,0,2,2,2,0,15,15,7,i,0,0.0292389392853,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Enjoy,i,i,3,e,e,blank.png,0,2,2,2,0,16,16,11,e,0,0.0206708908081,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Favorable,i,i,3,e,e,blank.png,0,2,2,2,0,17,17,12,e,0,0.0842878818512,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Awful,e,e,4,i,i,blank.png,0,2,2,2,0,18,18,15,i,0,0.06818318367,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Likeable,i,i,3,e,e,blank.png,0,2,2,2,0,19,19,13,e,0,0.0207629203796,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Disgust,e,e,4,i,i,blank.png,0,3,3,3,0,0,0,18,i,0,0.0174031257629,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Nasty,e,e,4,i,i,blank.png,0,3,3,3,0,1,1,19,i,0,0.0665099620819,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Dirty,e,e,4,i,i,blank.png,0,3,3,3,0,2,2,17,i,0,0.0197770595551,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Enjoy,i,i,3,e,e,blank.png,0,3,3,3,0,3,3,11,e,0,0.0834891796112,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,0,3,3,3,0,4,4,2,e,0,0.0230948925018,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,0,3,3,3,0,5,5,5,i,0,0.0460438728333,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Despise,e,e,4,i,i,blank.png,0,3,3,3,0,6,6,16,i,0,0.0675442218781,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,0,3,3,3,0,7,7,9,i,0,0.0438611507416,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,0,3,3,3,0,8,8,1,e,0,0.0254051685333,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Lovely,i,i,3,e,e,blank.png,0,3,3,3,0,9,9,14,e,0,0.0820140838623,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,0,3,3,3,0,10,10,0,e,0,0.0224719047546,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,0,3,3,3,0,11,11,7,i,0,0.0474989414215,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Attractive,i,i,3,e,e,blank.png,0,3,3,3,0,12,12,10,e,0,0.0628018379211,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Awful,e,e,4,i,i,blank.png,0,3,3,3,0,13,13,15,i,0,0.0214929580688,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,0,3,3,3,0,14,14,3,e,0,0.0213990211487,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Favorable,i,i,3,e,e,blank.png,0,3,3,3,0,15,15,12,e,0,0.0797710418701,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,0,3,3,3,0,16,16,4,e,0,0.0256731510162,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,0,3,3,3,0,17,17,8,i,0,0.0252368450165,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Likeable,i,i,3,e,e,blank.png,0,3,3,3,0,18,18,13,e,0,0.00233912467957,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,0,3,3,3,0,19,19,6,i,0,0.0353140830994,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,0,3,3,3,1,0,20,2,e,0,0.0413279533386,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Dirty,e,e,4,i,i,blank.png,0,3,3,3,1,1,21,17,i,0,0.069571018219,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Despise,e,e,4,i,i,blank.png,0,3,3,3,1,2,22,16,i,0,0.0185739994049,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Favorable,i,i,3,e,e,blank.png,0,3,3,3,1,3,23,12,e,0,0.0820779800415,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,0,3,3,3,1,4,24,4,e,0,0.0200860500336,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,0,3,3,3,1,5,25,7,i,0,0.0254199504852,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,0,3,3,3,1,6,26,6,i,0,0.0473289489746,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Awful,e,e,4,i,i,blank.png,0,3,3,3,1,7,27,15,i,0,0.081976890564,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Likeable,i,i,3,e,e,blank.png,0,3,3,3,1,8,28,13,e,0,0.0668411254883,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,0,3,3,3,1,9,29,8,i,0,0.0437381267548,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,0,3,3,3,1,10,30,1,e,0,0.0275299549103,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,0,3,3,3,1,11,31,9,i,0,0.0419490337372,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,0,3,3,3,1,12,32,5,i,0,0.0284171104431,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,0,3,3,3,1,13,33,3,e,0,0.0292451381683,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,0,3,3,3,1,14,34,0,e,0,0.0394649505615,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Enjoy,i,i,3,e,e,blank.png,0,3,3,3,1,15,35,11,e,0,0.0823349952698,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Disgust,e,e,4,i,i,blank.png,0,3,3,3,1,16,36,18,i,0,0.0607640743256,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Lovely,i,i,3,e,e,blank.png,0,3,3,3,1,17,37,14,e,0,0.00647497177124,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Attractive,i,i,3,e,e,blank.png,0,3,3,3,1,18,38,10,e,0,0.0835540294647,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,
+or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,Unpleasant,Pleasant,Chinese characters,Ablock3and4.xlsx,Flowers,"[-1, 1, -1]",Nasty,e,e,4,i,i,blank.png,0,3,3,3,1,19,39,19,i,0,0.0839190483093,None,0,5,,,1,59.6378196378,IAT,2015_Nov_11_1627,,

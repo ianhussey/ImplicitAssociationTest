@@ -6,10 +6,11 @@ Copyright Ian Hussey (ian.hussey@ugent.be)
 Distributed under an MIT license.
 
 ## Version
-0.9.2 (11/11/2015)
+0.9.3 (11/11/2015)
 Written in PsychoPy 1.82.01
 
 ## Notes
+- The current version employs pictures as category stimuli and words as labels. However, this implimentation is capable of displaying any combination of words and/or images for either category: just edit the highlighted rows in the excel files. stimuli files appropriately. NB "empty" cells must actually contain a single space (i.e., " ") or Psychopy will throw an undefined variable error.
 - High fidelity to the IAT procedure described in Nosek et al. (2007: the IAT at 7) and to the standard IAT script provided by Millisecond for Inquisit. IMHO, fidelity is higher than other freely available alternatives, such as the FreeIAT or OpenIAT (e.g., the latter has a different block layout, and also uses a combination of free responding and accuracy feedback, where the IAT almost invariably uses one or the other but not both).
 - The order of presentation of blocks within the task (e.g., whether participants get death-self or life-self first) is determined by the "block order" variable in the popup box. Use "1" or "2". 
 - The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.
@@ -37,6 +38,10 @@ The current version follows the block layout described in Nosek et al. (2007: th
 1. If participants get 100% of trials correct throughout the whole task then three incorrect response columns will not be created for that participant. This is highly unlikely, and futhermore is not a problem if your data processing workflow merges data files across participants based on column header names (e.g., using dplyr’s `rbind_list()` command) rather than positions (e.g., a SPSS script using a GET command, or some other R commands which assume equivalene table shapes).
 
 ## Changelog
+0.9.3
+- Corrected ITI from 300ms to 250ms.
+- Allows the researcher to display any combination of word or picture stimuli.
+
 0.9.2
 
 - Rewritten from scratch to make the data files follow Hadley Wickham's Tidy Data standards. Loops now include nested references to the stimuli files, thus allowing for a highly simplified flow and greatly decreased number of routines. The py script has also gone from 3250 lines to 450, and is far more readable. However, this change shifts complexity to the stimulus files: there are now 12 where there were 2. 

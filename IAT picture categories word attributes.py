@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Wed Nov 11 03:21:23 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Wed Nov 11 18:30:48 2015
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -20,7 +20,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = u'IAT'  # from the Builder filename that created this script
+expName = 'IAT'  # from the Builder filename that created this script
 expInfo = {u'gender': u'', u'age': u'', u'participant': u'', u'block order': u'1', u'group': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
@@ -43,8 +43,8 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 # Start Code - component code to be run before the window creation
 
 # Setup the Window
-win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
-    monitor=u'testMonitor', color=u'black', colorSpace='rgb',
+win = visual.Window(size=(1280, 1024), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
+    monitor='testMonitor', color='black', colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
 # store frame rate of monitor if we can measure it successfully
@@ -94,11 +94,17 @@ orRightBox_inst = visual.TextStim(win=win, ori=0, name='orRightBox_inst',
 
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
-stimulusAbox = visual.TextStim(win=win, ori=0, name='stimulusAbox',
+stimulusImage = visual.ImageStim(win=win, name='stimulusImage',
+    image='sin', mask=None,
+    ori=0, pos=[0, 0], size=.6,
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+stimulusBox = visual.TextStim(win=win, ori=0, name='stimulusBox',
     text='default text',    font='Arial',
     pos=[0, 0], height=0.1, wrapWidth=None,
     color=1.0, colorSpace='rgb', opacity=1,
-    depth=0.0)
+    depth=-1.0)
 msg1=""
 
 order = int(expInfo['block order'])
@@ -113,37 +119,37 @@ accuracyFeedback = visual.TextStim(win=win, ori=0, name='accuracyFeedback',
     text='default text',    font='Arial',
     pos=[0, -.5], height=0.2, wrapWidth=None,
     color='red', colorSpace='rgb', opacity=1,
-    depth=-4.0)
+    depth=-5.0)
 target1box = visual.TextStim(win=win, ori=0, name='target1box',
     text='default text',    font='Arial',
     pos=[-.6, .85], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
-    depth=-5.0)
+    depth=-6.0)
 attribute1box = visual.TextStim(win=win, ori=0, name='attribute1box',
     text='default text',    font='Arial',
     pos=[-.6, 0.55], height=0.1, wrapWidth=None,
     color=1.0, colorSpace='rgb', opacity=1,
-    depth=-6.0)
+    depth=-7.0)
 target2box = visual.TextStim(win=win, ori=0, name='target2box',
     text='default text',    font='Arial',
     pos=[0.6, 0.85], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
-    depth=-7.0)
+    depth=-8.0)
 attribute2box = visual.TextStim(win=win, ori=0, name='attribute2box',
     text='default text',    font='Arial',
     pos=[0.6, 0.55], height=0.1, wrapWidth=None,
     color=[-1, 1, -1], colorSpace='rgb', opacity=1,
-    depth=-8.0)
+    depth=-9.0)
 orLeftBox = visual.TextStim(win=win, ori=0, name='orLeftBox',
     text='default text',    font='Arial',
     pos=[-.6, .7], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
-    depth=-9.0)
+    depth=-10.0)
 orRightBox = visual.TextStim(win=win, ori=0, name='orRightBox',
     text='default text',    font='Arial',
     pos=[.6, .7], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
-    depth=-10.0)
+    depth=-11.0)
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -212,14 +218,14 @@ for thisBlock in blocks:
             instructionsBox.setAutoDraw(True)
         
         # *responseContinue* updates
-        if t >= 0.3 and responseContinue.status == NOT_STARTED:
+        if t >= 1 and responseContinue.status == NOT_STARTED:
             # keep track of start time/frame for later
             responseContinue.tStart = t  # underestimates by a little under one frame
             responseContinue.frameNStart = frameN  # exact frame index
             responseContinue.status = STARTED
             # keyboard checking is just starting
         if responseContinue.status == STARTED:
-            theseKeys = event.getKeys(keyList=['space'])
+            theseKeys = event.getKeys(keyList=['e', 'i'])
             
             # check for quit:
             if "escape" in theseKeys:
@@ -318,8 +324,9 @@ for thisBlock in blocks:
         trialClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
-        stimulusAbox.setColor(stimulusColour, colorSpace='rgb')
-        stimulusAbox.setText(stimulus)
+        stimulusImage.setImage(imageStimulus)
+        stimulusBox.setColor(stimulusColour, colorSpace='rgb')
+        stimulusBox.setText(stimulus)
         requiredResponse = event.BuilderKeyResponse()  # create an object of type KeyResponse
         requiredResponse.status = NOT_STARTED
         feedbackResponse = event.BuilderKeyResponse()  # create an object of type KeyResponse
@@ -335,7 +342,8 @@ for thisBlock in blocks:
         orRightBox.setText(orStimulus)
         # keep track of which components have finished
         trialComponents = []
-        trialComponents.append(stimulusAbox)
+        trialComponents.append(stimulusImage)
+        trialComponents.append(stimulusBox)
         trialComponents.append(requiredResponse)
         trialComponents.append(feedbackResponse)
         trialComponents.append(accuracyFeedback)
@@ -357,12 +365,19 @@ for thisBlock in blocks:
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
             
-            # *stimulusAbox* updates
-            if t >= 0.3 and stimulusAbox.status == NOT_STARTED:
+            # *stimulusImage* updates
+            if t >= 0.3 and stimulusImage.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                stimulusAbox.tStart = t  # underestimates by a little under one frame
-                stimulusAbox.frameNStart = frameN  # exact frame index
-                stimulusAbox.setAutoDraw(True)
+                stimulusImage.tStart = t  # underestimates by a little under one frame
+                stimulusImage.frameNStart = frameN  # exact frame index
+                stimulusImage.setAutoDraw(True)
+            
+            # *stimulusBox* updates
+            if t >= 0.3 and stimulusBox.status == NOT_STARTED:
+                # keep track of start time/frame for later
+                stimulusBox.tStart = t  # underestimates by a little under one frame
+                stimulusBox.frameNStart = frameN  # exact frame index
+                stimulusBox.setAutoDraw(True)
             
             # *requiredResponse* updates
             if t >= 0.3 and requiredResponse.status == NOT_STARTED:
