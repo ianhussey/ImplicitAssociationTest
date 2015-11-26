@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Wed Nov 11 18:30:48 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Thu Nov 26 12:23:41 2015
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -20,8 +20,8 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = 'IAT'  # from the Builder filename that created this script
-expInfo = {u'gender': u'', u'age': u'', u'participant': u'', u'block order': u'1', u'group': u''}
+expName = u'IAT'  # from the Builder filename that created this script
+expInfo = {u'gender': u'', u'age': u'', u'participant': u'', u'block_order': u'1'}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
@@ -43,8 +43,8 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 # Start Code - component code to be run before the window creation
 
 # Setup the Window
-win = visual.Window(size=(1280, 1024), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
-    monitor='testMonitor', color='black', colorSpace='rgb',
+win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
+    monitor=u'testMonitor', color=u'black', colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
 # store frame rate of monitor if we can measure it successfully

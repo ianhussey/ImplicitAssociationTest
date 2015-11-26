@@ -8,7 +8,7 @@
     <Param name="Window size (pixels)" val="[1366, 768]" valType="code" updates="None"/>
     <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
     <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
-    <Param name="Experiment info" val="{u'gender': u'', u'age': u'', u'participant': u'', u'block order': u'1', u'group': u''}" valType="code" updates="None"/>
+    <Param name="Experiment info" val="{u'gender': u'', u'age': u'', u'participant': u'', u'block_order': u'1'}" valType="code" updates="None"/>
     <Param name="Save csv file" val="False" valType="bool" updates="None"/>
     <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
     <Param name="Save wide csv file" val="True" valType="bool" updates="None"/>

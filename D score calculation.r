@@ -97,9 +97,9 @@ df_output <-
   
   # Recitfy the directionality of the D scores for block order B. 
   mutate(
-    D1a = ifelse(condition == 2, D1a *-1, ifelse(condition == 1, D1a, 'inversion error')),
-    D1b = ifelse(condition == 2, D1b *-1, ifelse(condition == 1, D1b, 'inversion error')),
-    D1 = ifelse(condition == 2, D1 *-1, ifelse(condition == 1, D1, 'inversion error'))
+    D1a = ifelse(block_order == 2, D1a *-1, ifelse(block_order == 1, D1a, 'inversion error')),
+    D1b = ifelse(block_order == 2, D1b *-1, ifelse(block_order == 1, D1b, 'inversion error')),
+    D1 = ifelse(block_order == 2, D1 *-1, ifelse(block_order == 1, D1, 'inversion error'))
   ) %>%
 
   # ADD RELIABILITY ANALYSIS HERE IN THE FUTURE
