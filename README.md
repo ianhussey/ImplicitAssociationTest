@@ -37,6 +37,7 @@ The current version follows the block layout described in Nosek et al. (2007: th
 
 ## Known issues
 1. If participants get 100% of trials correct throughout the whole task then three incorrect response columns will not be created for that participant. This is highly unlikely, and futhermore is not a problem if your data processing workflow merges data files across participants based on column header names (e.g., using dplyr’s `rbind_list()` command) rather than positions (e.g., a SPSS script using a GET command, or some other R commands which assume equivalene table shapes).
+2. All responses are recorded as correct for some reason. Accuracy can still be calculated from the presence or absence of feedbackResponse.rt however. 
 
 ## Changelog
 0.9.3
