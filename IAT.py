@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Thu Nov 26 12:23:41 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Thu Mar  3 13:02:26 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -20,8 +20,8 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = u'IAT'  # from the Builder filename that created this script
-expInfo = {u'gender': u'', u'age': u'', u'participant': u'', u'block_order': u'1'}
+expName = 'IAT'  # from the Builder filename that created this script
+expInfo = {u'gender': u'', u'age': u'', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
@@ -44,7 +44,7 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 
 # Setup the Window
 win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
-    monitor=u'testMonitor', color=u'black', colorSpace='rgb',
+    monitor='testMonitor', color=[-1.000,-1.000,-1.000], colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
 # store frame rate of monitor if we can measure it successfully
@@ -54,102 +54,112 @@ if expInfo['frameRate']!=None:
 else:
     frameDur = 1.0/60.0 # couldn't get a reliable measure so guess
 
-# Initialize components for Routine "instructions"
-instructionsClock = core.Clock()
+# Initialize components for Routine "instruction"
+instructionClock = core.Clock()
+trialRows = ""
+
+# set block order based on participant code
+participantNumber = int(expInfo['participant'])
+if (participantNumber % 2) == 1: 
+    blockOrder = 1
+elif (participantNumber % 2) == 0:
+    blockOrder = 2
+else:
+    print "****condition file error: please enter a numeric participant code****"
 instructionsBox = visual.TextStim(win=win, ori=0, name='instructionsBox',
     text='default text',    font='Arial',
-    pos=[0, -.15], height=0.05, wrapWidth=None,
+    pos=[0, 0], height=0.05, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
-    depth=0.0)
-target1box_inst = visual.TextStim(win=win, ori=0, name='target1box_inst',
+    depth=-1.0)
+leftCategoryLabel_2 = visual.TextStim(win=win, ori=0, name='leftCategoryLabel_2',
     text='default text',    font='Arial',
     pos=[-.6, .85], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
-    depth=-2.0)
-target2box_inst = visual.TextStim(win=win, ori=0, name='target2box_inst',
-    text='default text',    font='Arial',
-    pos=[0.6, 0.85], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
     depth=-3.0)
-attribute1box_inst = visual.TextStim(win=win, ori=0, name='attribute1box_inst',
+rightCategoryLabel_2 = visual.TextStim(win=win, ori=0, name='rightCategoryLabel_2',
+    text='default text',    font='Arial',
+    pos=[.6, .85], height=0.1, wrapWidth=None,
+    color='white', colorSpace='rgb', opacity=1,
+    depth=-4.0)
+leftAttributeLabel_2 = visual.TextStim(win=win, ori=0, name='leftAttributeLabel_2',
     text='default text',    font='Arial',
     pos=[-.6, 0.55], height=0.1, wrapWidth=None,
     color=[-1, 1, -1], colorSpace='rgb', opacity=1,
-    depth=-4.0)
-attribute2box_inst = visual.TextStim(win=win, ori=0, name='attribute2box_inst',
-    text='default text',    font='Arial',
-    pos=[0.6, 0.55], height=0.1, wrapWidth=None,
-    color=[-1, 1, -1], colorSpace='rgb', opacity=1,
     depth=-5.0)
-orLeftBox_inst = visual.TextStim(win=win, ori=0, name='orLeftBox_inst',
+rightAttributeLabel_2 = visual.TextStim(win=win, ori=0, name='rightAttributeLabel_2',
+    text='default text',    font='Arial',
+    pos=[.6, 0.55], height=0.1, wrapWidth=None,
+    color=[-1, 1, -1], colorSpace='rgb', opacity=1,
+    depth=-6.0)
+orLeft_2 = visual.TextStim(win=win, ori=0, name='orLeft_2',
     text='default text',    font='Arial',
     pos=[-.6, .7], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
-    depth=-6.0)
-orRightBox_inst = visual.TextStim(win=win, ori=0, name='orRightBox_inst',
+    depth=-7.0)
+orRight_2 = visual.TextStim(win=win, ori=0, name='orRight_2',
     text='default text',    font='Arial',
     pos=[.6, .7], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
-    depth=-7.0)
+    depth=-8.0)
 
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
-stimulusImage = visual.ImageStim(win=win, name='stimulusImage',
+#declare accuracy feedback message variable
+msg=""
+stimulusImageBox = visual.ImageStim(win=win, name='stimulusImageBox',
     image='sin', mask=None,
     ori=0, pos=[0, 0], size=.6,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-stimulusBox = visual.TextStim(win=win, ori=0, name='stimulusBox',
+    texRes=128, interpolate=True, depth=-1.0)
+stimulusTextBox = visual.TextStim(win=win, ori=0, name='stimulusTextBox',
     text='default text',    font='Arial',
     pos=[0, 0], height=0.1, wrapWidth=None,
     color=1.0, colorSpace='rgb', opacity=1,
-    depth=-1.0)
-msg1=""
-
-order = int(expInfo['block order'])
-
-if order == 1:
-    taskFile = "blockOrderA.xlsx"
-elif order == 2:
-    taskFile = "blockOrderB.xlsx"
-else:
-    print "****UNRECOGNISED ORDER CODE - please use 1 or 2 only****"
-accuracyFeedback = visual.TextStim(win=win, ori=0, name='accuracyFeedback',
+    depth=-2.0)
+feedback = visual.TextStim(win=win, ori=0, name='feedback',
     text='default text',    font='Arial',
     pos=[0, -.5], height=0.2, wrapWidth=None,
     color='red', colorSpace='rgb', opacity=1,
     depth=-5.0)
-target1box = visual.TextStim(win=win, ori=0, name='target1box',
+leftCategoryLabel = visual.TextStim(win=win, ori=0, name='leftCategoryLabel',
     text='default text',    font='Arial',
     pos=[-.6, .85], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
     depth=-6.0)
-attribute1box = visual.TextStim(win=win, ori=0, name='attribute1box',
+rightCategoryLabel = visual.TextStim(win=win, ori=0, name='rightCategoryLabel',
+    text='default text',    font='Arial',
+    pos=[.6, .85], height=0.1, wrapWidth=None,
+    color='white', colorSpace='rgb', opacity=1,
+    depth=-7.0)
+leftAttributeLabel = visual.TextStim(win=win, ori=0, name='leftAttributeLabel',
     text='default text',    font='Arial',
     pos=[-.6, 0.55], height=0.1, wrapWidth=None,
-    color=1.0, colorSpace='rgb', opacity=1,
-    depth=-7.0)
-target2box = visual.TextStim(win=win, ori=0, name='target2box',
-    text='default text',    font='Arial',
-    pos=[0.6, 0.85], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=[-1, 1, -1], colorSpace='rgb', opacity=1,
     depth=-8.0)
-attribute2box = visual.TextStim(win=win, ori=0, name='attribute2box',
+rightAttributeLabel = visual.TextStim(win=win, ori=0, name='rightAttributeLabel',
     text='default text',    font='Arial',
-    pos=[0.6, 0.55], height=0.1, wrapWidth=None,
+    pos=[.6, 0.55], height=0.1, wrapWidth=None,
     color=[-1, 1, -1], colorSpace='rgb', opacity=1,
     depth=-9.0)
-orLeftBox = visual.TextStim(win=win, ori=0, name='orLeftBox',
+orLeft = visual.TextStim(win=win, ori=0, name='orLeft',
     text='default text',    font='Arial',
     pos=[-.6, .7], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
     depth=-10.0)
-orRightBox = visual.TextStim(win=win, ori=0, name='orRightBox',
+orRight = visual.TextStim(win=win, ori=0, name='orRight',
     text='default text',    font='Arial',
     pos=[.6, .7], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
     depth=-11.0)
+
+# Initialize components for Routine "end"
+endClock = core.Clock()
+endBox = visual.TextStim(win=win, ori=0, name='endBox',
+    text='End of the task',    font='Arial',
+    pos=[0, 0], height=0.1, wrapWidth=None,
+    color='white', colorSpace='rgb', opacity=1,
+    depth=0.0)
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -158,7 +168,7 @@ routineTimer = core.CountdownTimer()  # to track time remaining of each (non-sli
 # set up handler to look after randomisation of conditions etc
 blocks = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions(taskFile),
+    trialList=data.importConditions('instructions.xlsx'),
     seed=None, name='blocks')
 thisExp.addLoop(blocks)  # add the loop to the experiment
 thisBlock = blocks.trialList[0]  # so we can initialise stimuli with some values
@@ -174,57 +184,96 @@ for thisBlock in blocks:
         for paramName in thisBlock.keys():
             exec(paramName + '= thisBlock.' + paramName)
     
-    #------Prepare to start Routine "instructions"-------
+    #------Prepare to start Routine "instruction"-------
     t = 0
-    instructionsClock.reset()  # clock 
+    instructionClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
-    instructionsBox.setText(instruction)
-    responseContinue = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    responseContinue.status = NOT_STARTED
-    target1box_inst.setText(target1)
-    target2box_inst.setText(target2)
-    attribute1box_inst.setText(attribute1)
-    attribute2box_inst.setText(attribute2)
-    orLeftBox_inst.setText(orStimulus)
-    orRightBox_inst.setText(orStimulus)
+    # set the stimulus file row and number of repeats based on the current block 
+    # this layout follows Nosek et al. 2007, "The Implicit Association Test at age 7: A methodological and conceptual review"
+    if blocks.thisN == 0:
+        trialRows = "10:20" 
+        nBlockRepeats = 2   #10*2 = 20 trials
+    elif blocks.thisN == 1:
+        trialRows = "0:10" 
+        nBlockRepeats = 2   #10*2 = 20 trials
+    elif blocks.thisN == 2:
+        trialRows = "0:20" 
+        nBlockRepeats = 1   #20*1 = 20 trials
+    elif blocks.thisN == 3:
+        trialRows = "0:20" 
+        nBlockRepeats = 2   #20*2 = 40 trials
+    elif blocks.thisN == 4:
+        trialRows = "0:10" 
+        nBlockRepeats = 4   #10*4 = 40 trials
+    elif blocks.thisN == 5:
+        trialRows = "0:20" 
+        nBlockRepeats = 1   #20*1 = 20 trials
+    elif blocks.thisN == 6:
+        trialRows = "0:20" 
+        nBlockRepeats = 2   #20*2 = 40 trials
+    
+    # set category and attribute labels based on the block order and current block
+    if blockOrder == 1 and blocks.thisN <= 3:
+        leftCategory = categoryA
+        rightCategory = categoryB
+    elif blockOrder == 1 and blocks.thisN > 3:
+        leftCategory = categoryB
+        rightCategory = categoryA
+    elif blockOrder == 2 and blocks.thisN <= 3:
+        leftCategory = categoryB
+        rightCategory = categoryA
+    elif blockOrder == 2 and blocks.thisN > 3:
+        leftCategory = categoryA
+        rightCategory = categoryB
+    instructionsBox.setText(instructions)
+    instructionsKey = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    instructionsKey.status = NOT_STARTED
+    leftCategoryLabel_2.setText(leftCategory)
+    rightCategoryLabel_2.setText(rightCategory)
+    leftAttributeLabel_2.setText(leftAttribute)
+    rightAttributeLabel_2.setText(rightAttribute)
+    orLeft_2.setText(orStimulus)
+    orRight_2.setText(orStimulus)
     # keep track of which components have finished
-    instructionsComponents = []
-    instructionsComponents.append(instructionsBox)
-    instructionsComponents.append(responseContinue)
-    instructionsComponents.append(target1box_inst)
-    instructionsComponents.append(target2box_inst)
-    instructionsComponents.append(attribute1box_inst)
-    instructionsComponents.append(attribute2box_inst)
-    instructionsComponents.append(orLeftBox_inst)
-    instructionsComponents.append(orRightBox_inst)
-    for thisComponent in instructionsComponents:
+    instructionComponents = []
+    instructionComponents.append(instructionsBox)
+    instructionComponents.append(instructionsKey)
+    instructionComponents.append(leftCategoryLabel_2)
+    instructionComponents.append(rightCategoryLabel_2)
+    instructionComponents.append(leftAttributeLabel_2)
+    instructionComponents.append(rightAttributeLabel_2)
+    instructionComponents.append(orLeft_2)
+    instructionComponents.append(orRight_2)
+    for thisComponent in instructionComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
     
-    #-------Start Routine "instructions"-------
+    #-------Start Routine "instruction"-------
     continueRoutine = True
     while continueRoutine:
         # get current time
-        t = instructionsClock.getTime()
+        t = instructionClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
+        
         # *instructionsBox* updates
-        if t >= 0.3 and instructionsBox.status == NOT_STARTED:
+        if t >= 0.75 and instructionsBox.status == NOT_STARTED:
             # keep track of start time/frame for later
             instructionsBox.tStart = t  # underestimates by a little under one frame
             instructionsBox.frameNStart = frameN  # exact frame index
             instructionsBox.setAutoDraw(True)
         
-        # *responseContinue* updates
-        if t >= 1 and responseContinue.status == NOT_STARTED:
+        # *instructionsKey* updates
+        if t >= 1.25 and instructionsKey.status == NOT_STARTED:
             # keep track of start time/frame for later
-            responseContinue.tStart = t  # underestimates by a little under one frame
-            responseContinue.frameNStart = frameN  # exact frame index
-            responseContinue.status = STARTED
+            instructionsKey.tStart = t  # underestimates by a little under one frame
+            instructionsKey.frameNStart = frameN  # exact frame index
+            instructionsKey.status = STARTED
             # keyboard checking is just starting
-        if responseContinue.status == STARTED:
+            event.clearEvents(eventType='keyboard')
+        if instructionsKey.status == STARTED:
             theseKeys = event.getKeys(keyList=['e', 'i'])
             
             # check for quit:
@@ -234,53 +283,53 @@ for thisBlock in blocks:
                 # a response ends the routine
                 continueRoutine = False
         
-        # *target1box_inst* updates
-        if t >= 0.0 and target1box_inst.status == NOT_STARTED:
+        # *leftCategoryLabel_2* updates
+        if t >= 0.0 and leftCategoryLabel_2.status == NOT_STARTED:
             # keep track of start time/frame for later
-            target1box_inst.tStart = t  # underestimates by a little under one frame
-            target1box_inst.frameNStart = frameN  # exact frame index
-            target1box_inst.setAutoDraw(True)
+            leftCategoryLabel_2.tStart = t  # underestimates by a little under one frame
+            leftCategoryLabel_2.frameNStart = frameN  # exact frame index
+            leftCategoryLabel_2.setAutoDraw(True)
         
-        # *target2box_inst* updates
-        if t >= 0.0 and target2box_inst.status == NOT_STARTED:
+        # *rightCategoryLabel_2* updates
+        if t >= 0.0 and rightCategoryLabel_2.status == NOT_STARTED:
             # keep track of start time/frame for later
-            target2box_inst.tStart = t  # underestimates by a little under one frame
-            target2box_inst.frameNStart = frameN  # exact frame index
-            target2box_inst.setAutoDraw(True)
+            rightCategoryLabel_2.tStart = t  # underestimates by a little under one frame
+            rightCategoryLabel_2.frameNStart = frameN  # exact frame index
+            rightCategoryLabel_2.setAutoDraw(True)
         
-        # *attribute1box_inst* updates
-        if t >= 0.0 and attribute1box_inst.status == NOT_STARTED:
+        # *leftAttributeLabel_2* updates
+        if t >= 0.0 and leftAttributeLabel_2.status == NOT_STARTED:
             # keep track of start time/frame for later
-            attribute1box_inst.tStart = t  # underestimates by a little under one frame
-            attribute1box_inst.frameNStart = frameN  # exact frame index
-            attribute1box_inst.setAutoDraw(True)
+            leftAttributeLabel_2.tStart = t  # underestimates by a little under one frame
+            leftAttributeLabel_2.frameNStart = frameN  # exact frame index
+            leftAttributeLabel_2.setAutoDraw(True)
         
-        # *attribute2box_inst* updates
-        if t >= 0.0 and attribute2box_inst.status == NOT_STARTED:
+        # *rightAttributeLabel_2* updates
+        if t >= 0.0 and rightAttributeLabel_2.status == NOT_STARTED:
             # keep track of start time/frame for later
-            attribute2box_inst.tStart = t  # underestimates by a little under one frame
-            attribute2box_inst.frameNStart = frameN  # exact frame index
-            attribute2box_inst.setAutoDraw(True)
+            rightAttributeLabel_2.tStart = t  # underestimates by a little under one frame
+            rightAttributeLabel_2.frameNStart = frameN  # exact frame index
+            rightAttributeLabel_2.setAutoDraw(True)
         
-        # *orLeftBox_inst* updates
-        if t >= 0.0 and orLeftBox_inst.status == NOT_STARTED:
+        # *orLeft_2* updates
+        if t >= 0.0 and orLeft_2.status == NOT_STARTED:
             # keep track of start time/frame for later
-            orLeftBox_inst.tStart = t  # underestimates by a little under one frame
-            orLeftBox_inst.frameNStart = frameN  # exact frame index
-            orLeftBox_inst.setAutoDraw(True)
+            orLeft_2.tStart = t  # underestimates by a little under one frame
+            orLeft_2.frameNStart = frameN  # exact frame index
+            orLeft_2.setAutoDraw(True)
         
-        # *orRightBox_inst* updates
-        if t >= 0.0 and orRightBox_inst.status == NOT_STARTED:
+        # *orRight_2* updates
+        if t >= 0.0 and orRight_2.status == NOT_STARTED:
             # keep track of start time/frame for later
-            orRightBox_inst.tStart = t  # underestimates by a little under one frame
-            orRightBox_inst.frameNStart = frameN  # exact frame index
-            orRightBox_inst.setAutoDraw(True)
+            orRight_2.tStart = t  # underestimates by a little under one frame
+            orRight_2.frameNStart = frameN  # exact frame index
+            orRight_2.setAutoDraw(True)
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
         continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in instructionsComponents:
+        for thisComponent in instructionComponents:
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
@@ -293,17 +342,18 @@ for thisBlock in blocks:
         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
             win.flip()
     
-    #-------Ending Routine "instructions"-------
-    for thisComponent in instructionsComponents:
+    #-------Ending Routine "instruction"-------
+    for thisComponent in instructionComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    # the Routine "instructions" was not non-slip safe, so reset the non-slip timer
+    
+    # the Routine "instruction" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler(nReps=nBlockRepeats, method='random', 
         extraInfo=expInfo, originPath=None,
-        trialList=data.importConditions(block),
+        trialList=data.importConditions('stimuli.xlsx', selection=trialRows),
         seed=None, name='trials')
     thisExp.addLoop(trials)  # add the loop to the experiment
     thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -324,35 +374,97 @@ for thisBlock in blocks:
         trialClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
-        stimulusImage.setImage(imageStimulus)
-        stimulusBox.setColor(stimulusColour, colorSpace='rgb')
-        stimulusBox.setText(stimulus)
+        # set stimulus colors based on trial type
+        if trialtype == 1 or trialtype == 2:
+             stimulusColor = [1, 1, 1]
+        elif trialtype >2:
+             stimulusColor = [-1, 1, -1]
+        
+        # set required and feedback responses
+        # attributes are invariate across blocks so can be determined based on trial type only
+        if trialtype == 3: #pos
+            requiredAllowed = "i"
+            requiredCorrect = "i"
+            feedbackAllowed = "e"
+            feedbackCorrect = "e"
+        elif trialtype == 4: #neg
+            requiredAllowed = "e"
+            requiredCorrect = "e"
+            feedbackAllowed = "i"
+            feedbackCorrect = "i"
+        # categories depend on block order, current block and trial type
+        if blockOrder == 1: 
+            if blocks.thisN <= 3:
+                if trialtype == 1: #flowers
+                    requiredAllowed = "i"
+                    requiredCorrect = "i"
+                    feedbackAllowed = "e"
+                    feedbackCorrect = "e"
+                elif trialtype == 2: #insects
+                    requiredAllowed = "e"
+                    requiredCorrect = "e"
+                    feedbackAllowed = "i"
+                    feedbackCorrect = "i"
+            elif blocks.thisN >= 3:
+                if trialtype == 1: #flowers
+                    requiredAllowed = "e"
+                    requiredCorrect = "e"
+                    feedbackAllowed = "i"
+                    feedbackCorrect = "i"
+                elif trialtype == 2: #insects
+                    requiredAllowed = "i"
+                    requiredCorrect = "i"
+                    feedbackAllowed = "e"
+                    feedbackCorrect = "e"
+        elif blockOrder == 2: 
+            if blocks.thisN <= 3:
+                if trialtype == 1: #flowers
+                    requiredAllowed = "e"
+                    requiredCorrect = "e"
+                    feedbackAllowed = "i"
+                    feedbackCorrect = "i"
+                elif trialtype == 2: #insects
+                    requiredAllowed = "i"
+                    requiredCorrect = "i"
+                    feedbackAllowed = "e"
+                    feedbackCorrect = "e"
+            elif blocks.thisN >= 3:
+                if trialtype == 1: #flowers
+                    requiredAllowed = "i"
+                    requiredCorrect = "i"
+                    feedbackAllowed = "e"
+                    feedbackCorrect = "e"
+                elif trialtype == 2: #insects
+                    requiredAllowed = "e"
+                    requiredCorrect = "e"
+                    feedbackAllowed = "i"
+                    feedbackCorrect = "i"
+        stimulusImageBox.setImage(stimulusImage)
+        stimulusTextBox.setColor(stimulusColor, colorSpace='rgb')
+        stimulusTextBox.setText(stimulusText)
         requiredResponse = event.BuilderKeyResponse()  # create an object of type KeyResponse
         requiredResponse.status = NOT_STARTED
         feedbackResponse = event.BuilderKeyResponse()  # create an object of type KeyResponse
         feedbackResponse.status = NOT_STARTED
-        
-        target1box.setText(target1)
-        attribute1box.setColor([-1, 1, -1], colorSpace='rgb')
-        attribute1box.setText(attribute1
-)
-        target2box.setText(target2)
-        attribute2box.setText(attribute2)
-        orLeftBox.setText(orStimulus)
-        orRightBox.setText(orStimulus)
+        leftCategoryLabel.setText(leftCategory)
+        rightCategoryLabel.setText(rightCategory)
+        leftAttributeLabel.setText(leftAttribute)
+        rightAttributeLabel.setText(rightAttribute)
+        orLeft.setText(orStimulus)
+        orRight.setText(orStimulus)
         # keep track of which components have finished
         trialComponents = []
-        trialComponents.append(stimulusImage)
-        trialComponents.append(stimulusBox)
+        trialComponents.append(stimulusImageBox)
+        trialComponents.append(stimulusTextBox)
         trialComponents.append(requiredResponse)
         trialComponents.append(feedbackResponse)
-        trialComponents.append(accuracyFeedback)
-        trialComponents.append(target1box)
-        trialComponents.append(attribute1box)
-        trialComponents.append(target2box)
-        trialComponents.append(attribute2box)
-        trialComponents.append(orLeftBox)
-        trialComponents.append(orRightBox)
+        trialComponents.append(feedback)
+        trialComponents.append(leftCategoryLabel)
+        trialComponents.append(rightCategoryLabel)
+        trialComponents.append(leftAttributeLabel)
+        trialComponents.append(rightAttributeLabel)
+        trialComponents.append(orLeft)
+        trialComponents.append(orRight)
         for thisComponent in trialComponents:
             if hasattr(thisComponent, 'status'):
                 thisComponent.status = NOT_STARTED
@@ -364,20 +476,24 @@ for thisBlock in blocks:
             t = trialClock.getTime()
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
+            if len(feedbackResponse.keys)<1:
+                msg=""
+            else:
+                msg="X"
             
-            # *stimulusImage* updates
-            if t >= 0.3 and stimulusImage.status == NOT_STARTED:
+            # *stimulusImageBox* updates
+            if t >= 0.3 and stimulusImageBox.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                stimulusImage.tStart = t  # underestimates by a little under one frame
-                stimulusImage.frameNStart = frameN  # exact frame index
-                stimulusImage.setAutoDraw(True)
+                stimulusImageBox.tStart = t  # underestimates by a little under one frame
+                stimulusImageBox.frameNStart = frameN  # exact frame index
+                stimulusImageBox.setAutoDraw(True)
             
-            # *stimulusBox* updates
-            if t >= 0.3 and stimulusBox.status == NOT_STARTED:
+            # *stimulusTextBox* updates
+            if t >= 0.3 and stimulusTextBox.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                stimulusBox.tStart = t  # underestimates by a little under one frame
-                stimulusBox.frameNStart = frameN  # exact frame index
-                stimulusBox.setAutoDraw(True)
+                stimulusTextBox.tStart = t  # underestimates by a little under one frame
+                stimulusTextBox.frameNStart = frameN  # exact frame index
+                stimulusTextBox.setAutoDraw(True)
             
             # *requiredResponse* updates
             if t >= 0.3 and requiredResponse.status == NOT_STARTED:
@@ -409,7 +525,7 @@ for thisBlock in blocks:
                         requiredResponse.keys = theseKeys[0]  # just the first key pressed
                         requiredResponse.rt = requiredResponse.clock.getTime()
                         # was this 'correct'?
-                        if (requiredResponse.keys == str(requiredResponse)) or (requiredResponse.keys == requiredResponse):
+                        if (requiredResponse.keys == str(requiredCorrect )) or (requiredResponse.keys == requiredCorrect ):
                             requiredResponse.corr = 1
                         else:
                             requiredResponse.corr = 0
@@ -417,7 +533,7 @@ for thisBlock in blocks:
                         continueRoutine = False
             
             # *feedbackResponse* updates
-            if t >= 0.3 and feedbackResponse.status == NOT_STARTED:
+            if t >= .3 and feedbackResponse.status == NOT_STARTED:
                 # keep track of start time/frame for later
                 feedbackResponse.tStart = t  # underestimates by a little under one frame
                 feedbackResponse.frameNStart = frameN  # exact frame index
@@ -446,65 +562,61 @@ for thisBlock in blocks:
                         feedbackResponse.keys = theseKeys[0]  # just the first key pressed
                         feedbackResponse.rt = feedbackResponse.clock.getTime()
                         # was this 'correct'?
-                        if (feedbackResponse.keys == str(feedbackResponse)) or (feedbackResponse.keys == feedbackResponse):
+                        if (feedbackResponse.keys == str(feedbackCorrect )) or (feedbackResponse.keys == feedbackCorrect ):
                             feedbackResponse.corr = 1
                         else:
                             feedbackResponse.corr = 0
-            if len(feedbackResponse.keys)<1:
-                msg1=""
-            else:
-                msg1="X"
             
-            # *accuracyFeedback* updates
-            if t >= 0.3 and accuracyFeedback.status == NOT_STARTED:
+            # *feedback* updates
+            if t >= .3 and feedback.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                accuracyFeedback.tStart = t  # underestimates by a little under one frame
-                accuracyFeedback.frameNStart = frameN  # exact frame index
-                accuracyFeedback.setAutoDraw(True)
-            if accuracyFeedback.status == STARTED:  # only update if being drawn
-                accuracyFeedback.setText(msg1, log=False)
+                feedback.tStart = t  # underestimates by a little under one frame
+                feedback.frameNStart = frameN  # exact frame index
+                feedback.setAutoDraw(True)
+            if feedback.status == STARTED:  # only update if being drawn
+                feedback.setText(msg, log=False)
             
-            # *target1box* updates
-            if t >= 0.0 and target1box.status == NOT_STARTED:
+            # *leftCategoryLabel* updates
+            if t >= 0 and leftCategoryLabel.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                target1box.tStart = t  # underestimates by a little under one frame
-                target1box.frameNStart = frameN  # exact frame index
-                target1box.setAutoDraw(True)
+                leftCategoryLabel.tStart = t  # underestimates by a little under one frame
+                leftCategoryLabel.frameNStart = frameN  # exact frame index
+                leftCategoryLabel.setAutoDraw(True)
             
-            # *attribute1box* updates
-            if t >= 0.0 and attribute1box.status == NOT_STARTED:
+            # *rightCategoryLabel* updates
+            if t >= 0.0 and rightCategoryLabel.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                attribute1box.tStart = t  # underestimates by a little under one frame
-                attribute1box.frameNStart = frameN  # exact frame index
-                attribute1box.setAutoDraw(True)
+                rightCategoryLabel.tStart = t  # underestimates by a little under one frame
+                rightCategoryLabel.frameNStart = frameN  # exact frame index
+                rightCategoryLabel.setAutoDraw(True)
             
-            # *target2box* updates
-            if t >= 0.0 and target2box.status == NOT_STARTED:
+            # *leftAttributeLabel* updates
+            if t >= 0.0 and leftAttributeLabel.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                target2box.tStart = t  # underestimates by a little under one frame
-                target2box.frameNStart = frameN  # exact frame index
-                target2box.setAutoDraw(True)
+                leftAttributeLabel.tStart = t  # underestimates by a little under one frame
+                leftAttributeLabel.frameNStart = frameN  # exact frame index
+                leftAttributeLabel.setAutoDraw(True)
             
-            # *attribute2box* updates
-            if t >= 0.0 and attribute2box.status == NOT_STARTED:
+            # *rightAttributeLabel* updates
+            if t >= 0.0 and rightAttributeLabel.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                attribute2box.tStart = t  # underestimates by a little under one frame
-                attribute2box.frameNStart = frameN  # exact frame index
-                attribute2box.setAutoDraw(True)
+                rightAttributeLabel.tStart = t  # underestimates by a little under one frame
+                rightAttributeLabel.frameNStart = frameN  # exact frame index
+                rightAttributeLabel.setAutoDraw(True)
             
-            # *orLeftBox* updates
-            if t >= 0.0 and orLeftBox.status == NOT_STARTED:
+            # *orLeft* updates
+            if t >= 0.0 and orLeft.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                orLeftBox.tStart = t  # underestimates by a little under one frame
-                orLeftBox.frameNStart = frameN  # exact frame index
-                orLeftBox.setAutoDraw(True)
+                orLeft.tStart = t  # underestimates by a little under one frame
+                orLeft.frameNStart = frameN  # exact frame index
+                orLeft.setAutoDraw(True)
             
-            # *orRightBox* updates
-            if t >= 0.0 and orRightBox.status == NOT_STARTED:
+            # *orRight* updates
+            if t >= 0.0 and orRight.status == NOT_STARTED:
                 # keep track of start time/frame for later
-                orRightBox.tStart = t  # underestimates by a little under one frame
-                orRightBox.frameNStart = frameN  # exact frame index
-                orRightBox.setAutoDraw(True)
+                orRight.tStart = t  # underestimates by a little under one frame
+                orRight.frameNStart = frameN  # exact frame index
+                orRight.setAutoDraw(True)
             
             # check if all components have finished
             if not continueRoutine:  # a component has requested a forced-end of Routine
@@ -527,11 +639,12 @@ for thisBlock in blocks:
         for thisComponent in trialComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
+        
         # check responses
         if requiredResponse.keys in ['', [], None]:  # No response was made
            requiredResponse.keys=None
            # was no response the correct answer?!
-           if str(requiredResponse).lower() == 'none': requiredResponse.corr = 1  # correct non-response
+           if str(requiredCorrect ).lower() == 'none': requiredResponse.corr = 1  # correct non-response
            else: requiredResponse.corr = 0  # failed to respond (incorrectly)
         # store data for trials (TrialHandler)
         trials.addData('requiredResponse.keys',requiredResponse.keys)
@@ -542,14 +655,13 @@ for thisBlock in blocks:
         if feedbackResponse.keys in ['', [], None]:  # No response was made
            feedbackResponse.keys=None
            # was no response the correct answer?!
-           if str(feedbackResponse).lower() == 'none': feedbackResponse.corr = 1  # correct non-response
+           if str(feedbackCorrect ).lower() == 'none': feedbackResponse.corr = 1  # correct non-response
            else: feedbackResponse.corr = 0  # failed to respond (incorrectly)
         # store data for trials (TrialHandler)
         trials.addData('feedbackResponse.keys',feedbackResponse.keys)
         trials.addData('feedbackResponse.corr', feedbackResponse.corr)
         if feedbackResponse.keys != None:  # we had a response
             trials.addData('feedbackResponse.rt', feedbackResponse.rt)
-        
         # the Routine "trial" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
         thisExp.nextEntry()
@@ -557,6 +669,59 @@ for thisBlock in blocks:
     # completed nBlockRepeats repeats of 'trials'
     
 # completed 1 repeats of 'blocks'
+
+
+#------Prepare to start Routine "end"-------
+t = 0
+endClock.reset()  # clock 
+frameN = -1
+routineTimer.add(3.750000)
+# update component parameters for each repeat
+# keep track of which components have finished
+endComponents = []
+endComponents.append(endBox)
+for thisComponent in endComponents:
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+
+#-------Start Routine "end"-------
+continueRoutine = True
+while continueRoutine and routineTimer.getTime() > 0:
+    # get current time
+    t = endClock.getTime()
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *endBox* updates
+    if t >= 0.75 and endBox.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        endBox.tStart = t  # underestimates by a little under one frame
+        endBox.frameNStart = frameN  # exact frame index
+        endBox.setAutoDraw(True)
+    if endBox.status == STARTED and t >= (0.75 + (3-win.monitorFramePeriod*0.75)): #most of one frame period left
+        endBox.setAutoDraw(False)
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in endComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # check for quit (the Esc key)
+    if endExpNow or event.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+#-------Ending Routine "end"-------
+for thisComponent in endComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
 
 
 win.close()
