@@ -1,12 +1,12 @@
 # Implicit Association Test written in PsychoPy
 
 ## License
-Copyright Ian Hussey (ian.hussey@ugent.be)
+Copyright (c) Ian Hussey 2016 (ian.hussey@ugent.be)
 
-Distributed under an MIT license.
+Distributed under the MIT license.
 
 ## Version
-0.10 (3/3/2016)
+1.0 (3/3/2016)
 
 Written in PsychoPy 1.82.01
 
@@ -43,6 +43,9 @@ The current version follows the block layout described in Nosek et al. (2007: th
 4. D score R script is now depreciated for version 0.10. Rework in the next version.
 
 ## Changelog
+1.0
+Used in a completed experiment and bug tested. No changes made relative from 0.10, which I've upgraded to a release copy.
+
 0.10
 Added new code components so that only a single stimulus file and single blocks file is needed. The contents the category labels and the correct and incorrect responses are determined before each trial based on the trial type, block order and current block. This limits the scope for human error when putting together the stimuli files.
 
