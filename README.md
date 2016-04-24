@@ -6,7 +6,7 @@ Copyright (c) Ian Hussey 2016 (ian.hussey@ugent.be)
 Distributed under the MIT license.
 
 ## Version
-1.0 (3/3/2016)
+1.0.1 (24/4/2016)
 
 Written in PsychoPy 1.82.01
 
@@ -17,11 +17,11 @@ Written in PsychoPy 1.82.01
 - The escape key quits the task at any time. 
 - The order of presentation of blocks within the task (e.g., whether participants get flowers-positive/insects-negative or flowers-negative/insects-positive first) is determined by the participant code. Odd numbered participants get the former, even numbered participants get the latter. Be careful that this counterbalancing does not covary with your counterbalancing of other experimental conditions.
 - Block length is a function of the number of rows in the stimuli.xlsx file. Furthermore, the rows selected in each block are hard coded in the code components. As such, for the task to perform correctly 5 stimulus exemplars must be used in each category. 
-- Accuracies can be calculated by reverse scoring the feedbackResponse.Corr variable. 
+- Accuracies can be calculated by reverse scoring the feedbackResponse.corr variable. 
 - .psydat and .csv files are produced for each participant. The .csv file is sufficient to most analyses (e.g., calculation of D scores).
 - All stimuli and instructions can be altered by editing the excel files. Indeed, all strings presented within the task are variables, so translating the task into other languages only requires changes to the stimuli and instructions files.
 - ITI is set to 250 ms (see Nosek et al., 2007: the IAT at age 7).
-
+- R script in the analysis folder produces D1 scores (and D1 scores for each stimulus category parcel), as well as accuracy and latency summary data.
 
 # Block layout
 The current version follows the block layout described in Nosek et al. (2007: the IAT at age 7). The contents of each screen follows the standard Inquisit IAT distribution very closely. However, the Inquisit IAT uses the older block layout of 20 trials in block 5.
@@ -40,26 +40,33 @@ The current version follows the block layout described in Nosek et al. (2007: th
 1. If participants get 100% of trials correct throughout the whole task then three incorrect response columns will not be created for that participant. This is highly unlikely, and futhermore is not a problem if your data processing workflow merges data files across participants based on column header names (e.g., with R using readr's read.csv) rather than column positions (e.g., a SPSS script using a GET command, or some other R commands which assume equivalent table shapes).
 2. Block order is not recorded in the data file, but is derived from the participant code (odd number vs even number). 
 3. “Empty” cells in the instructions file must actually include a whitespace character or task will crash. If text stimuli are used, put “blank.png” in the image stimulus box.
-4. D score R script is now depreciated for version 0.10. Rework in the next version.
+4. Requires 5 exemplars per category, as the stimuli file conflates block structure with exemplars to be used. I have a method to change this, but haven't implimented it yet.
+5. Stimuli presentations are based on timing rather than screen frames. This is relatively easy to alter, but requires more from the user in terms of setting the script up with their specific hardware. Marginal timing accuracy trade off. 
+
+## To do
+- Add PI metric to R script
+- Add internal consistency calculation to R script
+- Seperate block_layout and stimuli exemplars so that it task can accomodate an arbitrary number of exemplars. e.g., using shuffle()/pop() method from IRAP. 
 
 ## Changelog
-1.0
+### 1.0.1
+R script updated.
+
+### 1.0
 Used in a completed experiment and bug tested. No changes made relative from 0.10, which I've upgraded to a release copy.
 
-0.10
+### 0.10
 Added new code components so that only a single stimulus file and single blocks file is needed. The contents the category labels and the correct and incorrect responses are determined before each trial based on the trial type, block order and current block. This limits the scope for human error when putting together the stimuli files.
 
-0.9.3
+### 0.9.3
 - Corrected ITI from 300ms to 250ms.
 - Allows the researcher to display any combination of word or picture stimuli.
 
-0.9.2
-
+### 0.9.2
 - Rewritten from scratch to make the data files follow Hadley Wickham's Tidy Data standards. Loops now include nested references to the stimuli files, thus allowing for a highly simplified flow and greatly decreased number of routines. The py script has also gone from 3250 lines to 450, and is far more readable. However, this change shifts complexity to the stimulus files: there are now 12 where there were 2. 
 - This rewriting also allowed me to add the ability to choose the block order based on a variable entered in the popup before the experiment (i.e., block order: 1 vs 2).
 
-0.9.1
-
+### 0.9.1
 - changed the instuctions1and5 from "is trials" = true to "is trials" = false so that a superfluous line is not recorded in the data file.
 - changed the endLoop from is trials" = true to "is trials" = false so that a superfluous line is not recorded in the data file.
 - until now, trial blocks 3&4 and 6&7 used the same routines (repsectively) because the contents of these blocks' trials was identical. However, it makes for easier analysis if the data is output in different columns.
