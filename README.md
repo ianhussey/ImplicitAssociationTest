@@ -8,7 +8,7 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 ## Version
-1.0.1 (24/4/2016)
+1.1 (5/5/2016)
 
 Written in PsychoPy 1.82.01
 
