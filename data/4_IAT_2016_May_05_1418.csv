@@ -1,0 +1,1001 @@
+categoryA,categoryB,rightAttribute,leftAttribute,orStimulus,instructions,trial_type,stimulusImage,stimulusText,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,requiredResponse.keys,requiredResponse.corr,requiredResponse.rt,feedbackResponse.keys,feedbackResponse.corr,feedbackResponse.rt,participant,gender,age,frameRate,expName,date,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,0,0,0,0,i,1,0.43633389473,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,0,1,1,1,e,1,0.268579959869,i,1,0.251720905304,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,1,0,2,1,e,1,0.202582120895,i,1,0.185939073563,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,1,1,3,0,i,1,0.184051036835,e,1,0.183945894241,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,2,0,4,0,i,1,0.202745914459,e,1,0.185424089432,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,2,1,5,0,i,1,0.185419082642,e,1,0.167489051819,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,3,0,6,1,e,1,0.16749215126,i,1,0.151141881943,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,3,1,7,1,e,1,0.133676052094,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,4,0,8,1,e,1,0.150519132614,i,1,0.150493144989,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,4,1,9,0,i,1,0.152781963348,e,1,0.152748823166,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,5,0,10,1,e,1,0.134994983673,i,1,0.134905099869,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,5,1,11,1,e,1,0.184209823608,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,6,0,12,0,i,1,0.151313066483,e,1,0.133534193039,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,6,1,13,0,i,1,0.186192989349,e,1,0.18612909317,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,7,0,14,1,e,1,0.167414903641,i,1,0.151282072067,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,7,1,15,1,e,1,0.117489099503,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,0,0,0,8,0,16,1,e,1,0.184672832489,i,1,0.184289932251,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,8,1,17,0,i,1,0.167928934097,e,1,0.167815923691,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,9,0,18,0,i,1,0.151698112488,e,1,0.151185035706,4,,,60.1055568532,IAT,2016_May_05_1418,
+ , ,Positive,Negative, ,"Put your middle or index fingers on the E and I keys of your keyboard. Words representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. If you make an error, an X will appear - fix the error by hitting the other key.
+
+This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,0,0,0,9,1,19,0,i,1,0.18479013443,e,1,0.184661149979,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,0,0,0,1,i,1,0.184922933578,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,0,1,1,1,i,1,0.13450217247,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,1,0,2,0,e,1,0.0844020843506,i,1,0.0841679573059,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,1,1,3,0,e,1,0.0675039291382,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,2,0,4,1,i,1,0.0676579475403,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,2,1,5,1,i,1,0.0682969093323,e,1,0.0679578781128,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,3,0,6,1,i,1,0.0676071643829,e,1,0.0497298240662,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,3,1,7,0,e,1,0.0172529220581,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,4,0,8,1,i,1,0.0666959285736,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,4,1,9,1,i,1,0.0673849582672,e,1,0.0505449771881,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,5,0,10,0,e,1,0.0500271320343,i,1,0.0342040061951,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,5,1,11,0,e,1,0.035952091217,i,1,0.0177478790283,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,6,0,12,0,e,1,0.369235992432,i,1,0.0165250301361,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,6,1,13,0,e,1,0.117728948593,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,7,0,14,1,i,1,0.0837950706482,e,1,0.0673980712891,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,7,1,15,0,e,1,0.0670161247253,i,1,0.067281961441,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,8,0,16,0,e,1,0.067743062973,i,1,0.0672528743744,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,8,1,17,1,i,1,0.0516550540924,e,1,0.0514841079712,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,1,1,1,9,0,18,1,i,1,0.0675799846649,e,1,0.0503380298615,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"See above, the categories have changed. The items for sorting have changed as well. The rules, however, are the same.
+
+When the item belongs to a category on the left, press the E key; when the item belongs to a category on the right, press the I key. Items belong to only one category. An X appears after an error - fix the error by hitting the other key. GO AS FAST AS YOU CAN.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,1,1,1,9,1,19,0,e,1,0.0507979393005,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,2,2,2,0,0,0,2,i,1,0.269299983978,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,2,2,2,0,1,1,0,e,1,0.084361076355,i,1,0.0669658184052,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,2,2,2,0,2,2,0,e,1,0.0349140167236,i,1,0.0346999168396,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,2,2,2,0,3,3,1,i,1,0.369212150574,e,1,0.0165610313416,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,2,2,2,1,0,4,3,e,1,0.167909860611,i,1,0.150057077408,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,2,2,2,1,1,5,0,e,1,0.200426101685,i,1,0.183708906174,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,2,2,2,1,2,6,2,i,1,0.11866402626,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,2,2,2,1,3,7,3,e,1,0.168818950653,i,1,0.151116847992,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,2,2,2,2,0,8,0,e,1,0.134563207626,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,2,2,2,2,1,9,1,i,1,0.134541034698,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,2,2,2,2,2,10,1,i,1,0.0842950344086,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,2,2,2,2,3,11,2,i,1,0.0845031738281,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,2,2,2,3,0,12,1,i,1,0.10081911087,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,2,2,2,3,1,13,2,i,1,0.100584983826,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,2,2,2,3,2,14,3,e,1,0.184349775314,i,1,0.133996009827,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,2,2,2,3,3,15,0,e,1,0.10187792778,i,1,0.0334429740906,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,2,2,2,4,0,16,2,i,1,0.0348479747772,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,2,2,2,4,1,17,3,e,1,0.201728820801,i,1,0.134191989899,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,2,2,2,4,2,18,1,i,1,0.0520050525665,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories you saw separately now appear together. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,2,2,2,4,3,19,3,e,1,0.217730045319,i,1,0.167824029922,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,0,0,0,3,e,1,0.202282905579,i,1,0.202023029327,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,0,1,1,2,i,1,0.168178081512,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,0,2,2,3,e,1,0.167906045914,i,1,0.151103019714,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,0,3,3,0,e,1,0.135087966919,i,1,0.134873867035,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,1,0,4,3,e,1,0.117861032486,i,1,0.100545883179,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,1,1,5,3,e,1,0.134225845337,i,1,0.134004116058,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,1,2,6,3,e,1,0.100779056549,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,1,3,7,2,i,1,0.134896039963,e,1,0.134628772736,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,2,0,8,1,i,1,0.117602825165,e,1,0.117435932159,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,2,1,9,0,e,1,0.0679681301117,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,2,2,10,3,e,1,0.16902089119,i,1,0.168483018875,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,2,3,11,2,i,1,0.134785890579,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,3,0,12,1,i,1,0.117496013641,e,1,0.116997003555,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,3,1,13,0,e,1,0.10133099556,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,3,2,14,3,e,1,0.134431838989,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,3,3,15,1,i,1,0.134762048721,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,4,0,16,1,i,1,0.134473800659,e,1,0.133942127228,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,4,1,17,3,e,1,0.117420911789,i,1,0.10070681572,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,4,2,18,0,e,1,0.101335048676,i,1,0.0843460559845,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,4,3,19,1,i,1,0.117723941803,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,5,0,20,3,e,1,0.134748220444,i,1,0.134244918823,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,3,3,3,5,1,21,3,e,1,0.135194063187,i,1,0.116747140884,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,5,2,22,0,e,1,0.10076379776,i,1,0.0852210521698,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,5,3,23,1,i,1,0.117397069931,e,1,0.100527048111,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,6,0,24,1,i,1,0.0844719409943,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,6,1,25,0,e,1,0.118433952332,i,1,0.100322961807,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,6,2,26,0,e,1,0.0842020511627,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,6,3,27,2,i,1,0.101696014404,e,1,0.101383924484,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,7,0,28,1,i,1,0.134636163712,e,1,0.116832971573,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,7,1,29,0,e,1,0.117331027985,i,1,0.100524902344,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,7,2,30,1,i,1,0.100615024567,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,7,3,31,2,i,1,0.0842440128326,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,8,0,32,2,i,1,0.118123054504,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,8,1,33,2,i,1,0.101630210876,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,8,2,34,2,i,1,0.134840011597,e,1,0.134547948837,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,8,3,35,2,i,1,0.118371009827,e,1,0.101545810699,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,3,3,3,9,0,36,2,i,1,0.118595838547,e,1,0.118256092072,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,9,1,37,0,e,1,0.135931968689,i,1,0.135544061661,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,3,3,3,9,2,38,1,i,1,0.168217182159,e,1,0.167668104172,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,3,3,3,9,3,39,0,e,1,0.134243011475,i,1,0.116137981415,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,0,0,0,1,e,1,0.252020120621,i,1,0.235549926758,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,0,1,1,0,i,1,0.0847268104553,e,1,0.0841891765594,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,1,0,2,1,e,1,0.117192029953,i,1,0.100450992584,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,1,1,3,1,e,1,0.0500268936157,i,1,0.0331609249115,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,2,0,4,1,e,1,0.0522639751434,i,1,0.0518128871918,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,2,1,5,0,i,1,0.0675599575043,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,3,0,6,1,e,1,0.101686000824,i,1,0.0839948654175,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,3,1,7,0,i,1,0.0515511035919,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,4,0,8,0,i,1,0.0508041381836,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,4,1,9,1,e,1,0.0840301513672,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,5,0,10,0,i,1,0.101951122284,e,1,0.101691961288,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,5,1,11,1,e,1,0.0845401287079,i,1,0.0840249061584,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,6,0,12,0,i,1,0.067312002182,e,1,0.0511651039124,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,6,1,13,0,i,1,0.100601911545,e,1,0.100176811218,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,7,0,14,1,e,1,0.0501561164856,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,7,1,15,0,i,1,0.10143494606,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,8,0,16,0,i,1,0.101618051529,e,1,0.101150989532,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,8,1,17,0,i,1,0.101138114929,e,1,0.100647926331,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,9,0,18,1,e,1,0.0684881210327,i,1,0.0680680274963,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,9,1,19,1,e,1,0.100386857986,i,1,0.084431886673,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,10,0,20,0,i,1,0.0996589660645,e,1,0.0828549861908,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,10,1,21,1,e,1,0.0849809646606,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,11,0,22,1,e,1,0.100900173187,i,1,0.0842440128326,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,11,1,23,0,i,1,0.0512778759003,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,12,0,24,0,i,1,0.0684328079224,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,12,1,25,1,e,1,0.0676331520081,i,1,0.0671908855438,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,13,0,26,0,i,1,0.0858891010284,e,1,0.0858330726624,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,13,1,27,1,e,1,0.0507938861847,i,1,0.0514450073242,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,14,0,28,0,i,1,0.0844948291779,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,14,1,29,1,e,1,0.0849761962891,i,1,0.0674271583557,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,15,0,30,0,i,1,0.101179838181,e,1,0.100658178329,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,15,1,31,1,e,1,0.0836489200592,i,1,0.0501449108124,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,16,0,32,1,e,1,0.0674870014191,i,1,0.0504081249237,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,16,1,33,1,e,1,0.0835690498352,i,1,0.0679039955139,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,17,0,34,0,i,1,0.0671811103821,e,1,0.0510461330414,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,17,1,35,1,e,1,0.0504808425903,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,4,4,4,18,0,36,1,e,1,0.118519067764,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,18,1,37,0,i,1,0.0684778690338,e,1,0.0509171485901,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,19,0,38,0,i,1,0.0506579875946,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers, , , ,"Notice above, there are only two cateogries and they have switched positions. The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.
+
+Use the E and I keys to catgorize items left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,4,4,4,19,1,39,0,i,1,0.134338140488,e,1,0.100162982941,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,5,5,5,0,0,0,3,e,1,0.252725124359,i,1,0.252534866333,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,5,5,5,0,1,1,0,i,1,0.184142112732,e,1,0.167154073715,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,5,5,5,0,2,2,1,e,1,0.152315139771,i,1,0.135061979294,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,5,5,5,0,3,3,0,i,1,0.0838949680328,e,1,0.083349943161,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,5,5,5,1,0,4,0,i,1,0.0676109790802,e,1,0.0505428314209,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,5,5,5,1,1,5,3,e,1,0.0673191547394,i,1,0.0507659912109,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,5,5,5,1,2,6,2,i,1,0.0354270935059,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,5,5,5,1,3,7,3,e,1,0.0840799808502,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,5,5,5,2,0,8,2,i,1,0.0840718746185,e,1,0.083526134491,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,5,5,5,2,1,9,2,i,1,0.100651025772,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,5,5,5,2,2,10,1,e,1,0.0676519870758,i,1,0.0674319267273,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,5,5,5,2,3,11,1,e,1,0.050971031189,i,1,0.0504372119904,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,5,5,5,3,0,12,3,e,1,0.0681908130646,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,5,5,5,3,1,13,1,e,1,0.117285966873,i,1,0.101306915283,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,5,5,5,3,2,14,0,i,1,0.0685589313507,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,5,5,5,3,3,15,2,i,1,0.118520975113,e,1,0.100284099579,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,5,5,5,4,0,16,1,e,1,0.0843861103058,i,1,0.0677831172943,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,5,5,5,4,1,17,3,e,1,0.100388050079,i,1,0.0996921062469,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,5,5,5,4,2,18,0,i,1,0.134508132935,e,1,0.133991003036,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"See above, the four categories now appear together in a new configuration. Remember, each item belongs to only one group.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,5,5,5,4,3,19,2,i,1,0.0838780403137,e,1,0.0835399627686,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,0,0,0,1,e,1,0.0679860115051,i,1,0.0674729347229,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,0,1,1,1,e,1,0.117178916931,i,1,0.0833780765533,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,0,2,2,1,e,1,0.0839431285858,i,1,0.0833730697632,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,0,3,3,3,e,1,0.117816925049,i,1,0.117563962936,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,1,0,4,3,e,1,0.11687707901,i,1,0.100858211517,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,1,1,5,2,i,1,0.0672979354858,e,1,0.0505840778351,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,1,2,6,2,i,1,0.149772882462,e,1,0.100606918335,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,1,3,7,3,e,1,0.0521380901337,i,1,0.0519688129425,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,2,0,8,0,i,1,0.136243104935,e,1,0.135776042938,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,2,1,9,3,e,1,0.0846800804138,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,2,2,10,2,i,1,0.118319034576,e,1,0.100337028503,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,2,3,11,2,i,1,0.0508351325989,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,3,0,12,2,i,1,0.085009098053,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,3,1,13,3,e,1,0.0843570232391,i,1,0.0674860477448,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,3,2,14,2,i,1,0.0353360176086,e,1,0.0351219177246,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,3,3,15,0,i,1,0.135643959045,e,1,0.0864429473877,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,4,0,16,2,i,1,0.100464105606,e,1,0.034735918045,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,4,1,17,0,i,1,0.0680599212646,e,1,0.0678420066833,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,4,2,18,1,e,1,0.0838069915771,i,1,0.0670680999756,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,4,3,19,0,i,1,0.0687701702118,e,1,0.068186044693,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,5,0,20,0,i,1,0.117407083511,e,1,0.067223072052,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,5,1,21,2,i,1,0.0510439872742,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,5,2,22,2,i,1,0.068482875824,e,1,0.0679879188538,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,5,3,23,1,e,1,0.0505681037903,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,6,0,24,3,e,1,0.0516428947449,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,6,1,25,3,e,1,0.151267051697,i,1,0.15096282959,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,6,2,26,1,e,1,0.050183057785,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,6,3,27,1,e,1,0.301448106766,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,7,0,28,0,i,1,0.0690851211548,e,1,0.0686531066895,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,7,1,29,1,e,1,0.0504159927368,i,1,0.0171008110046,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,7,2,30,0,i,1,2.24544596672,e,1,2.2448849678,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,7,3,31,0,i,1,0.134926795959,e,1,0.134681940079,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,8,0,32,3,e,1,0.1343729496,i,1,0.117216825485,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,8,1,33,0,i,1,0.135108947754,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,8,2,34,1,e,1,0.117311000824,i,1,0.1167948246,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,8,3,35,3,e,1,0.100446224213,i,1,0.0846529006958,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",2,img_trial_type_2,text_trial_type_2,0,6,6,6,9,0,36,1,e,1,0.0847420692444,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",4,img_trial_type_4,text_trial_type_4,0,6,6,6,9,1,37,3,e,1,0.151507854462,i,1,0.151049137115,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",3,img_trial_type_3,text_trial_type_3,0,6,6,6,9,2,38,2,i,1,0.0847489833832,e,1,0.0844421386719,4,,,60.1055568532,IAT,2016_May_05_1418,
+Insects,Flowers,Positive,Negative,or,"Sort the same four categories again. Remember to go as fast as you can while making as few mistakes as possible.
+
+The green and white labels and items may help to identify the appropriate category. Use the E and I keys to categorize items into the four groups left and right, and correct errors by hitting the other key.
+
+Press E or I to continue.",1,img_trial_type_1,text_trial_type_1,0,6,6,6,9,3,39,0,i,1,0.0854249000549,None,0,,4,,,60.1055568532,IAT,2016_May_05_1418,

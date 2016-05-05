@@ -83,7 +83,7 @@ D1_df <-
 
 # by trial type
 D1_TT_df <-
-  group_by(df, participant, trialtype) %>%
+  group_by(df, participant, trial_type) %>%
   filter(rt <= 10000) %>%
   summarize(
     # blocks 3 and 6
@@ -100,7 +100,7 @@ D1_TT_df <-
          difference_b = RT_block7_m - RT_block4_m,
          D1b = difference_b / RT_block4and7_SD,
          IAT_D1 = round((D1a + D1b)/2, 2),
-         TT = trialtype) %>%
+         TT = trial_type) %>%
   select(participant, 
          IAT_D1,
          TT) %>%
@@ -144,4 +144,4 @@ all_tasks_df <-
 
 ########################################################################
 # Write to file
-write.csv(all_tasks_df, file = '~/git/IAT/analysis/IAT_data.csv', row.names=FALSE)
+write.csv(all_tasks_df, file = '~/git/IAT/data processing/IAT_data.csv', row.names=FALSE)
