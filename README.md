@@ -3,7 +3,9 @@
 ## License
 Copyright (c) Ian Hussey 2016 (ian.hussey@ugent.be)
 
-Distributed under the MIT license.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 ## Version
 1.0.1 (24/4/2016)
@@ -13,28 +15,27 @@ Written in PsychoPy 1.82.01
 ## Notes
 - This implimentation of the IAT has high fidelity to the procedure described in Nosek et al. (2007: the IAT at 7), and to the standard IAT Inquisit script provided by Millisecond. See block layout below. IMHO, fidelity is higher than other freely available alternatives, such as the FreeIAT or OpenIAT (e.g., the latter has a different block layout, and also uses a combination of free responding and accuracy feedback, where the IAT almost invariably uses one or the other but not both).
 - You can run either the .psyexp file or the .py file inside PsychoPy. The task was written in version 1.82.01. Other versions may produce unexpected behaviour. The py file should have greater cross platform support; if you run into errors with the .psyexp file use the .py instead.
-- The included stimulus file employs pictures as category stimuli and words as attribute stimuli. However, this implimentation can display any combination of words and/or images for both categories and attributes. To do this, edit the highlighted rows in the excel files: if using text stimuli, put "blank.png" in the stimulusImage column; if using image stimuli, put a single space character in the stimulusText column, as empty cells will cause the task to crash and Psychopy will throw an undefined variable error.
+- The included stimulus file employs pictures as category stimuli and words as attribute stimuli. However, this implimentation can display any combination of words and/or images for both categories and attributes. To do this, edit the highlighted rows in the excel files: if using text stimuli, put "blank.png" in the appropriate image exemplar column in the stimuli.xlsx file. If using image stimuli, put a single space character in the appropriate column, as empty cells will cause the task to crash and Psychopy will throw an undefined variable error.
 - The escape key quits the task at any time. 
 - The order of presentation of blocks within the task (e.g., whether participants get flowers-positive/insects-negative or flowers-negative/insects-positive first) is determined by the participant code. Odd numbered participants get the former, even numbered participants get the latter. Be careful that this counterbalancing does not covary with your counterbalancing of other experimental conditions.
-- Block length is a function of the number of rows in the stimuli.xlsx file. Furthermore, the rows selected in each block are hard coded in the code components. As such, for the task to perform correctly 5 stimulus exemplars must be used in each category. 
+- Block length is fixed by the code and the block_layout.xlsx file, and is independent of the number of stimuli exemplars.
+- The number of exemplars can vary freely; it's currently 5 but can be more or less without this affecting the block length. However, it must be identical across categories. If 5 exemplars are used in each category then each block will present all exemplars an equal number of times. Using more or less exemplars than this will result in the correct number of trials and counterbalancing of trial-types, but a (necessarially) unequal number of presentations of each exemplar.  
 - Accuracies can be calculated by reverse scoring the feedbackResponse.corr variable. 
 - .psydat and .csv files are produced for each participant. The .csv file is sufficient to most analyses (e.g., calculation of D scores).
+- R script in the analysis folder produces D1 scores (and D1 scores for each stimulus category parcel), as well as accuracy and latency summary data.
 - All stimuli and instructions can be altered by editing the excel files. Indeed, all strings presented within the task are variables, so translating the task into other languages only requires changes to the stimuli and instructions files.
 - ITI is set to 250 ms (see Nosek et al., 2007: the IAT at age 7).
-- R script in the analysis folder produces D1 scores (and D1 scores for each stimulus category parcel), as well as accuracy and latency summary data.
 
 # Block layout
 The current version follows the block layout described in Nosek et al. (2007: the IAT at age 7). The contents of each screen follows the standard Inquisit IAT distribution very closely. However, the Inquisit IAT uses the older block layout of 20 trials in block 5.
 
-5 exemplars per stimulus category. Changing this will cause undesirable behaviour within the task, as the stimulus rows are hard coded.
-
-- Block 1 (categories) 20 Trials (2 loops of 10)
-- Block 2 (attributes) 20 Trials (2 loops of 10)
-- Block 3 (both) 20 Trials (1 loops of 20)
-- Block 4 (both) 40 Trials (2 loops of 20)
-- Block 5 (categories reversed) 40 Trials (4 loops of 10)
-- Block 6 (both reversed) 20 Trials (1 loops of 20)
-- Block 7 (both reversed) 40 Trials (2 loops of 20)
+- Block 1 (categories) 20 Trials
+- Block 2 (attributes) 20 Trials
+- Block 3 (both) 20 Trials
+- Block 4 (both) 40 Trials
+- Block 5 (categories reversed) 40 Trials
+- Block 6 (both reversed) 20 Trials
+- Block 7 (both reversed) 40 Trials
 
 ## Known issues
 1. If participants get 100% of trials correct throughout the whole task then three incorrect response columns will not be created for that participant. This is highly unlikely, and futhermore is not a problem if your data processing workflow merges data files across participants based on column header names (e.g., with R using readr's read.csv) rather than column positions (e.g., a SPSS script using a GET command, or some other R commands which assume equivalent table shapes).
@@ -44,11 +45,12 @@ The current version follows the block layout described in Nosek et al. (2007: th
 5. Stimuli presentations are based on timing rather than screen frames. This is relatively easy to alter, but requires more from the user in terms of setting the script up with their specific hardware. Marginal timing accuracy trade off. 
 
 ## To do
-- Add PI metric to R script
 - Add internal consistency calculation to R script
-- Seperate block_layout and stimuli exemplars so that it task can accomodate an arbitrary number of exemplars. e.g., using shuffle()/pop() method from IRAP. 
 
 ## Changelog
+### 1.1
+- Seperated stimuli file into exemplars and block_layout. Multiplier is determined by the number of exemplars. As such, the block lengths are fixed by the code, but the number of exemplars can vary freely (although they must be equal across trial types, e.g., all must have N).
+
 ### 1.0.1
 R script updated.
 

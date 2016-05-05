@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Thu Mar  3 13:02:26 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Thu May  5 14:20:45 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -36,6 +36,8 @@ thisExp = data.ExperimentHandler(name=expName, version='',
     originPath=None,
     savePickle=True, saveWideText=True,
     dataFileName=filename)
+#save a log file for detail verbose info
+logFile = logging.LogFile(filename+'.log', level=logging.WARNING)
 logging.console.setLevel(logging.WARNING)  # this outputs to the screen, not a file
 
 endExpNow = False  # flag for 'escape' or other condition => quit the exp
@@ -56,16 +58,46 @@ else:
 
 # Initialize components for Routine "instruction"
 instructionClock = core.Clock()
-trialRows = ""
+# Dependencies
+import itertools  # for flattening lists of lists into lists
+import random
+import math  # for math.ceil() rounding up
+
+# Import stimuli exemplars
+exemplars_filename = 'stimuli.xlsx'
+exemplars = data.importConditions(exemplars_filename)# Import stimuli exemplars
+
+# Determine rows of examplars (i.e., max number of rows)
+"""
+This method creates a fully counterbalanced presentation of exemplars when there are 5
+of them, but it will not present each one an equal number of times it the n diverges from 5.
+"""
+n_exemplars = len(exemplars)
+list_multiplier = int(math.ceil(10/n_exemplars))  # math.ceil() rounds up. 10 is the derived from way block lengths are calculated. Admittedly, this comment doensn't adequately document why it's ten. Honestly, I have to work it out of my fingers every time and can't explain it.
+
+# Trial generation function
+def generate_trials(trial_type_column, multiplier):
+    """Generate a shuffled list of stimuli exemplars from a column in an excel stimuli file""" 
+    a = dict()  # declare a dict to be populated
+    for i in range(len(exemplars)):
+        a[i] = [exemplars[i][trial_type_column]] * multiplier  # populate the dict from vertical reads of the conditions
+    a = a.values()  # extract only values (and not keys) from the list of dicts
+    a = list(itertools.chain(*a))  # flatten the list of dicts into a list
+    random.shuffle(a)  # shuffle this list, so that it can be drawn from by the trials
+    return a
+
+# declare trial rows (not sure if necessary, but can't be bothered to removed and test)
+trial_rows = ""
 
 # set block order based on participant code
 participantNumber = int(expInfo['participant'])
 if (participantNumber % 2) == 1: 
-    blockOrder = 1
+    block_order = 1
 elif (participantNumber % 2) == 0:
-    blockOrder = 2
+    block_order = 2
 else:
     print "****condition file error: please enter a numeric participant code****"
+
 instructionsBox = visual.TextStim(win=win, ori=0, name='instructionsBox',
     text='default text',    font='Arial',
     pos=[0, 0], height=0.05, wrapWidth=None,
@@ -156,9 +188,9 @@ orRight = visual.TextStim(win=win, ori=0, name='orRight',
 # Initialize components for Routine "end"
 endClock = core.Clock()
 endBox = visual.TextStim(win=win, ori=0, name='endBox',
-    text='End of the task',    font='Arial',
+    text=u'End of the task',    font=u'Arial',
     pos=[0, 0], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 # Create some handy timers
@@ -189,41 +221,58 @@ for thisBlock in blocks:
     instructionClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
-    # set the stimulus file row and number of repeats based on the current block 
+    # set the block length and the rows to pull from based on the current block 
     # this layout follows Nosek et al. 2007, "The Implicit Association Test at age 7: A methodological and conceptual review"
     if blocks.thisN == 0:
-        trialRows = "10:20" 
-        nBlockRepeats = 2   #10*2 = 20 trials
+        trial_rows = "2:4" 
+        n_block_repeats = 10   #2*10 = 20 trials
+        modified_list_multiplier = list_multiplier
     elif blocks.thisN == 1:
-        trialRows = "0:10" 
-        nBlockRepeats = 2   #10*2 = 20 trials
+        trial_rows = "0:2" 
+        n_block_repeats = 10   #2*10 = 20 trials
+        modified_list_multiplier = list_multiplier
     elif blocks.thisN == 2:
-        trialRows = "0:20" 
-        nBlockRepeats = 1   #20*1 = 20 trials
+        trial_rows = "0:4" 
+        n_block_repeats = 5   #4*5 = 20 trials
+        modified_list_multiplier = list_multiplier
     elif blocks.thisN == 3:
-        trialRows = "0:20" 
-        nBlockRepeats = 2   #20*2 = 40 trials
+        trial_rows = "0:4" 
+        n_block_repeats = 10   #4*10 = 40 trials
+        modified_list_multiplier = list_multiplier
     elif blocks.thisN == 4:
-        trialRows = "0:10" 
-        nBlockRepeats = 4   #10*4 = 40 trials
+        trial_rows = "0:2" 
+        n_block_repeats = 20   #2*20 = 40 trials
+        modified_list_multiplier = list_multiplier * 2  # because this block has a different trials:categories ratio
     elif blocks.thisN == 5:
-        trialRows = "0:20" 
-        nBlockRepeats = 1   #20*1 = 20 trials
+        trial_rows = "0:4" 
+        n_block_repeats = 5   #4*5 = 20 trials
+        modified_list_multiplier = list_multiplier
     elif blocks.thisN == 6:
-        trialRows = "0:20" 
-        nBlockRepeats = 2   #20*2 = 40 trials
+        trial_rows = "0:4" 
+        n_block_repeats = 10   #4*10 = 40 trials
+        modified_list_multiplier = list_multiplier
+    
+    # Generate list of stimuli for the block
+    text_trial_type_1_trials = generate_trials('text_trial_type_1_exemplars', modified_list_multiplier)  # function and variable determined at begin exp.
+    text_trial_type_2_trials = generate_trials('text_trial_type_2_exemplars', modified_list_multiplier)
+    text_trial_type_3_trials = generate_trials('text_trial_type_3_exemplars', modified_list_multiplier)
+    text_trial_type_4_trials = generate_trials('text_trial_type_4_exemplars', modified_list_multiplier)
+    img_trial_type_1_trials = generate_trials('img_trial_type_1_exemplars', modified_list_multiplier)
+    img_trial_type_2_trials = generate_trials('img_trial_type_2_exemplars', modified_list_multiplier)
+    img_trial_type_3_trials = generate_trials('img_trial_type_3_exemplars', modified_list_multiplier)
+    img_trial_type_4_trials = generate_trials('img_trial_type_4_exemplars', modified_list_multiplier)
     
     # set category and attribute labels based on the block order and current block
-    if blockOrder == 1 and blocks.thisN <= 3:
+    if block_order == 1 and blocks.thisN <= 3:
         leftCategory = categoryA
         rightCategory = categoryB
-    elif blockOrder == 1 and blocks.thisN > 3:
+    elif block_order == 1 and blocks.thisN > 3:
         leftCategory = categoryB
         rightCategory = categoryA
-    elif blockOrder == 2 and blocks.thisN <= 3:
+    elif block_order == 2 and blocks.thisN <= 3:
         leftCategory = categoryB
         rightCategory = categoryA
-    elif blockOrder == 2 and blocks.thisN > 3:
+    elif block_order == 2 and blocks.thisN > 3:
         leftCategory = categoryA
         rightCategory = categoryB
     instructionsBox.setText(instructions)
@@ -351,9 +400,9 @@ for thisBlock in blocks:
     routineTimer.reset()
     
     # set up handler to look after randomisation of conditions etc
-    trials = data.TrialHandler(nReps=nBlockRepeats, method='random', 
+    trials = data.TrialHandler(nReps=n_block_repeats, method='fullRandom', 
         extraInfo=expInfo, originPath=None,
-        trialList=data.importConditions('stimuli.xlsx', selection=trialRows),
+        trialList=data.importConditions('block_layout.xlsx', selection=trial_rows),
         seed=None, name='trials')
     thisExp.addLoop(trials)  # add the loop to the experiment
     thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -374,74 +423,88 @@ for thisBlock in blocks:
         trialClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
+        # choose a random exemplar from the appropriate trial type list
+        if trial_type == 1:
+            text_stimulus = text_trial_type_1_trials.pop()
+            image_stimulus = img_trial_type_1_trials.pop()
+        elif trial_type == 2:
+            text_stimulus = text_trial_type_2_trials.pop()
+            image_stimulus = img_trial_type_2_trials.pop()
+        elif trial_type == 3:
+            text_stimulus = text_trial_type_3_trials.pop()
+            image_stimulus = img_trial_type_3_trials.pop()
+        elif trial_type == 4:
+            text_stimulus = text_trial_type_4_trials.pop()
+            image_stimulus = img_trial_type_4_trials.pop()
+        
         # set stimulus colors based on trial type
-        if trialtype == 1 or trialtype == 2:
+        if trial_type == 1 or trial_type == 2:
              stimulusColor = [1, 1, 1]
-        elif trialtype >2:
+        elif trial_type >2:
              stimulusColor = [-1, 1, -1]
         
         # set required and feedback responses
         # attributes are invariate across blocks so can be determined based on trial type only
-        if trialtype == 3: #pos
+        if trial_type == 3: #pos
             requiredAllowed = "i"
             requiredCorrect = "i"
             feedbackAllowed = "e"
             feedbackCorrect = "e"
-        elif trialtype == 4: #neg
+        elif trial_type == 4: #neg
             requiredAllowed = "e"
             requiredCorrect = "e"
             feedbackAllowed = "i"
             feedbackCorrect = "i"
         # categories depend on block order, current block and trial type
-        if blockOrder == 1: 
+        if block_order == 1: 
             if blocks.thisN <= 3:
-                if trialtype == 1: #flowers
+                if trial_type == 1: #flowers
                     requiredAllowed = "i"
                     requiredCorrect = "i"
                     feedbackAllowed = "e"
                     feedbackCorrect = "e"
-                elif trialtype == 2: #insects
+                elif trial_type == 2: #insects
                     requiredAllowed = "e"
                     requiredCorrect = "e"
                     feedbackAllowed = "i"
                     feedbackCorrect = "i"
             elif blocks.thisN >= 3:
-                if trialtype == 1: #flowers
+                if trial_type == 1: #flowers
                     requiredAllowed = "e"
                     requiredCorrect = "e"
                     feedbackAllowed = "i"
                     feedbackCorrect = "i"
-                elif trialtype == 2: #insects
+                elif trial_type == 2: #insects
                     requiredAllowed = "i"
                     requiredCorrect = "i"
                     feedbackAllowed = "e"
                     feedbackCorrect = "e"
-        elif blockOrder == 2: 
+        elif block_order == 2: 
             if blocks.thisN <= 3:
-                if trialtype == 1: #flowers
+                if trial_type == 1: #flowers
                     requiredAllowed = "e"
                     requiredCorrect = "e"
                     feedbackAllowed = "i"
                     feedbackCorrect = "i"
-                elif trialtype == 2: #insects
+                elif trial_type == 2: #insects
                     requiredAllowed = "i"
                     requiredCorrect = "i"
                     feedbackAllowed = "e"
                     feedbackCorrect = "e"
             elif blocks.thisN >= 3:
-                if trialtype == 1: #flowers
+                if trial_type == 1: #flowers
                     requiredAllowed = "i"
                     requiredCorrect = "i"
                     feedbackAllowed = "e"
                     feedbackCorrect = "e"
-                elif trialtype == 2: #insects
+                elif trial_type == 2: #insects
                     requiredAllowed = "e"
                     requiredCorrect = "e"
                     feedbackAllowed = "i"
                     feedbackCorrect = "i"
-        stimulusImageBox.setImage(stimulusImage)
+        stimulusImageBox.setImage(image_stimulus)
         stimulusTextBox.setColor(stimulusColor, colorSpace='rgb')
-        stimulusTextBox.setText(stimulusText)
+        stimulusTextBox.setText(text_stimulus)
         requiredResponse = event.BuilderKeyResponse()  # create an object of type KeyResponse
         requiredResponse.status = NOT_STARTED
         feedbackResponse = event.BuilderKeyResponse()  # create an object of type KeyResponse
@@ -666,7 +729,7 @@ for thisBlock in blocks:
         routineTimer.reset()
         thisExp.nextEntry()
         
-    # completed nBlockRepeats repeats of 'trials'
+    # completed n_block_repeats repeats of 'trials'
     
 # completed 1 repeats of 'blocks'
 
