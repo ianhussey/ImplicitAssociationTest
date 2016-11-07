@@ -248,7 +248,7 @@
       <CodeComponent name="block_code">
         <Param name="Begin Experiment" val="# Dependencies&#10;import itertools  # for flattening lists of lists into lists&#10;import random&#10;import math  # for math.ceil() rounding up&#10;&#10;# Import stimuli exemplars&#10;exemplars_filename = 'stimuli.xlsx'&#10;exemplars = data.importConditions(exemplars_filename)# Import stimuli exemplars&#10;&#10;# Determine rows of examplars (i.e., max number of rows)&#10;&quot;&quot;&quot;&#10;This method creates a fully counterbalanced presentation of exemplars when there are 5&#10;of them, but it will not present each one an equal number of times it the n diverges from 5.&#10;&quot;&quot;&quot;&#10;n_exemplars = len(exemplars)&#10;list_multiplier = int(math.ceil(10/n_exemplars))  # math.ceil() rounds up. 10 is the derived from way block lengths are calculated. Admittedly, this comment doensn't adequately document why it's ten. Honestly, I have to work it out of my fingers every time and can't explain it.&#10;&#10;# Trial generation function&#10;def generate_trials(trial_type_column, multiplier):&#10;    &quot;&quot;&quot;Generate a shuffled list of stimuli exemplars from a column in an excel stimuli file&quot;&quot;&quot; &#10;    a = dict()  # declare a dict to be populated&#10;    for i in range(len(exemplars)):&#10;        a[i] = [exemplars[i][trial_type_column]] * multiplier  # populate the dict from vertical reads of the conditions&#10;    a = a.values()  # extract only values (and not keys) from the list of dicts&#10;    a = list(itertools.chain(*a))  # flatten the list of dicts into a list&#10;    random.shuffle(a)  # shuffle this list, so that it can be drawn from by the trials&#10;    return a&#10;&#10;# declare trial rows (not sure if necessary, but can't be bothered to removed and test)&#10;trial_rows = &quot;&quot;&#10;&#10;# set block order based on participant code&#10;participantNumber = int(expInfo['participant'])&#10;if (participantNumber % 2) == 1: &#10;    block_order = 1&#10;elif (participantNumber % 2) == 0:&#10;    block_order = 2&#10;else:&#10;    print &quot;****condition file error: please enter a numeric participant code****&quot;&#10;" valType="extendedCode" updates="constant"/>
         <Param name="name" val="block_code" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="# set the block length and the rows to pull from based on the current block &#10;# this layout follows Nosek et al. 2007, &quot;The Implicit Association Test at age 7: A methodological and conceptual review&quot;&#10;if blocks.thisN == 0:&#10;    trial_rows = &quot;2:4&quot; &#10;    n_block_repeats = 10   #2*10 = 20 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 1:&#10;    trial_rows = &quot;0:2&quot; &#10;    n_block_repeats = 10   #2*10 = 20 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 2:&#10;    trial_rows = &quot;0:4&quot; &#10;    n_block_repeats = 5   #4*5 = 20 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 3:&#10;    trial_rows = &quot;0:4&quot; &#10;    n_block_repeats = 10   #4*10 = 40 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 4:&#10;    trial_rows = &quot;0:2&quot; &#10;    n_block_repeats = 20   #2*20 = 40 trials&#10;    modified_list_multiplier = list_multiplier * 2  # because this block has a different trials:categories ratio&#10;elif blocks.thisN == 5:&#10;    trial_rows = &quot;0:4&quot; &#10;    n_block_repeats = 5   #4*5 = 20 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 6:&#10;    trial_rows = &quot;0:4&quot; &#10;    n_block_repeats = 10   #4*10 = 40 trials&#10;    modified_list_multiplier = list_multiplier&#10;&#10;# Generate list of stimuli for the block&#10;text_trial_type_1_trials = generate_trials('text_trial_type_1_exemplars', modified_list_multiplier)  # function and variable determined at begin exp.&#10;text_trial_type_2_trials = generate_trials('text_trial_type_2_exemplars', modified_list_multiplier)&#10;text_trial_type_3_trials = generate_trials('text_trial_type_3_exemplars', modified_list_multiplier)&#10;text_trial_type_4_trials = generate_trials('text_trial_type_4_exemplars', modified_list_multiplier)&#10;img_trial_type_1_trials = generate_trials('img_trial_type_1_exemplars', modified_list_multiplier)&#10;img_trial_type_2_trials = generate_trials('img_trial_type_2_exemplars', modified_list_multiplier)&#10;img_trial_type_3_trials = generate_trials('img_trial_type_3_exemplars', modified_list_multiplier)&#10;img_trial_type_4_trials = generate_trials('img_trial_type_4_exemplars', modified_list_multiplier)&#10;&#10;# set category and attribute labels based on the block order and current block&#10;if block_order == 1 and blocks.thisN &lt;= 3:&#10;    leftCategory = categoryA&#10;    rightCategory = categoryB&#10;elif block_order == 1 and blocks.thisN &gt; 3:&#10;    leftCategory = categoryB&#10;    rightCategory = categoryA&#10;elif block_order == 2 and blocks.thisN &lt;= 3:&#10;    leftCategory = categoryB&#10;    rightCategory = categoryA&#10;elif block_order == 2 and blocks.thisN &gt; 3:&#10;    leftCategory = categoryA&#10;    rightCategory = categoryB" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="# set the block length and the rows to pull from based on the current block &#10;# this layout follows Nosek et al. 2007, &quot;The Implicit Association Test at age 7: A methodological and conceptual review&quot;&#10;if blocks.thisN == 0:&#10;    trial_rows = &quot;0:2&quot; &#10;    n_block_repeats = 10   #2*10 = 20 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 1:&#10;    trial_rows = &quot;2:4&quot; &#10;    n_block_repeats = 10   #2*10 = 20 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 2:&#10;    trial_rows = &quot;0:4&quot; &#10;    n_block_repeats = 5   #4*5 = 20 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 3:&#10;    trial_rows = &quot;0:4&quot; &#10;    n_block_repeats = 10   #4*10 = 40 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 4:&#10;    trial_rows = &quot;0:2&quot; &#10;    n_block_repeats = 20   #2*20 = 40 trials&#10;    modified_list_multiplier = list_multiplier * 2  # because this block has a different trials:categories ratio&#10;elif blocks.thisN == 5:&#10;    trial_rows = &quot;0:4&quot; &#10;    n_block_repeats = 5   #4*5 = 20 trials&#10;    modified_list_multiplier = list_multiplier&#10;elif blocks.thisN == 6:&#10;    trial_rows = &quot;0:4&quot; &#10;    n_block_repeats = 10   #4*10 = 40 trials&#10;    modified_list_multiplier = list_multiplier&#10;&#10;# Generate list of stimuli for the block&#10;text_trial_type_1_trials = generate_trials('text_trial_type_1_exemplars', modified_list_multiplier)  # function and variable determined at begin exp.&#10;text_trial_type_2_trials = generate_trials('text_trial_type_2_exemplars', modified_list_multiplier)&#10;text_trial_type_3_trials = generate_trials('text_trial_type_3_exemplars', modified_list_multiplier)&#10;text_trial_type_4_trials = generate_trials('text_trial_type_4_exemplars', modified_list_multiplier)&#10;img_trial_type_1_trials = generate_trials('img_trial_type_1_exemplars', modified_list_multiplier)&#10;img_trial_type_2_trials = generate_trials('img_trial_type_2_exemplars', modified_list_multiplier)&#10;img_trial_type_3_trials = generate_trials('img_trial_type_3_exemplars', modified_list_multiplier)&#10;img_trial_type_4_trials = generate_trials('img_trial_type_4_exemplars', modified_list_multiplier)&#10;&#10;# set category and attribute labels based on the block order and current block&#10;if block_order == 1 and blocks.thisN &lt;= 3:&#10;    leftCategory = categoryA&#10;    rightCategory = categoryB&#10;elif block_order == 1 and blocks.thisN &gt; 3:&#10;    leftCategory = categoryB&#10;    rightCategory = categoryA&#10;elif block_order == 2 and blocks.thisN &lt;= 3:&#10;    leftCategory = categoryB&#10;    rightCategory = categoryA&#10;elif block_order == 2 and blocks.thisN &gt; 3:&#10;    leftCategory = categoryA&#10;    rightCategory = categoryB" valType="extendedCode" updates="constant"/>
         <Param name="End Routine" val="" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
@@ -285,7 +285,7 @@
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
         <Param name="allowedKeys" val="'e', 'i'" valType="code" updates="constant"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="1.25" valType="code" updates="None"/>
+        <Param name="startVal" val="2.75" valType="code" updates="None"/>
         <Param name="store" val="nothing" valType="str" updates="constant"/>
       </KeyboardComponent>
       <TextComponent name="leftCategoryLabel_2">
@@ -304,7 +304,7 @@
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
         <Param name="ori" val="0" valType="code" updates="constant"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="startVal" val="0.75" valType="code" updates="None"/>
         <Param name="font" val="Arial" valType="str" updates="constant"/>
         <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
       </TextComponent>
@@ -324,7 +324,7 @@
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
         <Param name="ori" val="0" valType="code" updates="constant"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="startVal" val="0.75" valType="code" updates="None"/>
         <Param name="font" val="Arial" valType="str" updates="constant"/>
         <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
       </TextComponent>
@@ -344,7 +344,7 @@
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
         <Param name="ori" val="0" valType="code" updates="constant"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="startVal" val="0.75" valType="code" updates="None"/>
         <Param name="font" val="Arial" valType="str" updates="constant"/>
         <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
       </TextComponent>
@@ -364,7 +364,7 @@
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
         <Param name="ori" val="0" valType="code" updates="constant"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="startVal" val="0.75" valType="code" updates="None"/>
         <Param name="font" val="Arial" valType="str" updates="constant"/>
         <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
       </TextComponent>
@@ -384,7 +384,7 @@
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
         <Param name="ori" val="0" valType="code" updates="constant"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="startVal" val="0.75" valType="code" updates="None"/>
         <Param name="font" val="Arial" valType="str" updates="constant"/>
         <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
       </TextComponent>
@@ -404,7 +404,7 @@
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
         <Param name="ori" val="0" valType="code" updates="constant"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="startVal" val="0.75" valType="code" updates="None"/>
         <Param name="font" val="Arial" valType="str" updates="constant"/>
         <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
       </TextComponent>

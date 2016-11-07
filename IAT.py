@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Thu May  5 14:20:45 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Mon Nov  7 14:58:58 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -45,7 +45,7 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 # Start Code - component code to be run before the window creation
 
 # Setup the Window
-win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
+win = visual.Window(size=(1280, 800), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
     monitor='testMonitor', color=[-1.000,-1.000,-1.000], colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
@@ -99,39 +99,39 @@ else:
     print "****condition file error: please enter a numeric participant code****"
 
 instructionsBox = visual.TextStim(win=win, ori=0, name='instructionsBox',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[0, 0], height=0.05, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-1.0)
 leftCategoryLabel_2 = visual.TextStim(win=win, ori=0, name='leftCategoryLabel_2',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-.6, .85], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-3.0)
 rightCategoryLabel_2 = visual.TextStim(win=win, ori=0, name='rightCategoryLabel_2',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[.6, .85], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-4.0)
 leftAttributeLabel_2 = visual.TextStim(win=win, ori=0, name='leftAttributeLabel_2',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-.6, 0.55], height=0.1, wrapWidth=None,
     color=[-1, 1, -1], colorSpace='rgb', opacity=1,
     depth=-5.0)
 rightAttributeLabel_2 = visual.TextStim(win=win, ori=0, name='rightAttributeLabel_2',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[.6, 0.55], height=0.1, wrapWidth=None,
     color=[-1, 1, -1], colorSpace='rgb', opacity=1,
     depth=-6.0)
 orLeft_2 = visual.TextStim(win=win, ori=0, name='orLeft_2',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-.6, .7], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-7.0)
 orRight_2 = visual.TextStim(win=win, ori=0, name='orRight_2',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[.6, .7], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-8.0)
 
 # Initialize components for Routine "trial"
@@ -155,22 +155,22 @@ feedback = visual.TextStim(win=win, ori=0, name='feedback',
     color='red', colorSpace='rgb', opacity=1,
     depth=-5.0)
 leftCategoryLabel = visual.TextStim(win=win, ori=0, name='leftCategoryLabel',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-.6, .85], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 rightCategoryLabel = visual.TextStim(win=win, ori=0, name='rightCategoryLabel',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[.6, .85], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-7.0)
 leftAttributeLabel = visual.TextStim(win=win, ori=0, name='leftAttributeLabel',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-.6, 0.55], height=0.1, wrapWidth=None,
     color=[-1, 1, -1], colorSpace='rgb', opacity=1,
     depth=-8.0)
 rightAttributeLabel = visual.TextStim(win=win, ori=0, name='rightAttributeLabel',
-    text='default text',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[.6, 0.55], height=0.1, wrapWidth=None,
     color=[-1, 1, -1], colorSpace='rgb', opacity=1,
     depth=-9.0)
@@ -188,9 +188,9 @@ orRight = visual.TextStim(win=win, ori=0, name='orRight',
 # Initialize components for Routine "end"
 endClock = core.Clock()
 endBox = visual.TextStim(win=win, ori=0, name='endBox',
-    text=u'End of the task',    font=u'Arial',
+    text='End of the task',    font='Arial',
     pos=[0, 0], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 # Create some handy timers
@@ -224,11 +224,11 @@ for thisBlock in blocks:
     # set the block length and the rows to pull from based on the current block 
     # this layout follows Nosek et al. 2007, "The Implicit Association Test at age 7: A methodological and conceptual review"
     if blocks.thisN == 0:
-        trial_rows = "2:4" 
+        trial_rows = "0:2" 
         n_block_repeats = 10   #2*10 = 20 trials
         modified_list_multiplier = list_multiplier
     elif blocks.thisN == 1:
-        trial_rows = "0:2" 
+        trial_rows = "2:4" 
         n_block_repeats = 10   #2*10 = 20 trials
         modified_list_multiplier = list_multiplier
     elif blocks.thisN == 2:
@@ -315,7 +315,7 @@ for thisBlock in blocks:
             instructionsBox.setAutoDraw(True)
         
         # *instructionsKey* updates
-        if t >= 1.25 and instructionsKey.status == NOT_STARTED:
+        if t >= 2.75 and instructionsKey.status == NOT_STARTED:
             # keep track of start time/frame for later
             instructionsKey.tStart = t  # underestimates by a little under one frame
             instructionsKey.frameNStart = frameN  # exact frame index
@@ -333,42 +333,42 @@ for thisBlock in blocks:
                 continueRoutine = False
         
         # *leftCategoryLabel_2* updates
-        if t >= 0.0 and leftCategoryLabel_2.status == NOT_STARTED:
+        if t >= 0.75 and leftCategoryLabel_2.status == NOT_STARTED:
             # keep track of start time/frame for later
             leftCategoryLabel_2.tStart = t  # underestimates by a little under one frame
             leftCategoryLabel_2.frameNStart = frameN  # exact frame index
             leftCategoryLabel_2.setAutoDraw(True)
         
         # *rightCategoryLabel_2* updates
-        if t >= 0.0 and rightCategoryLabel_2.status == NOT_STARTED:
+        if t >= 0.75 and rightCategoryLabel_2.status == NOT_STARTED:
             # keep track of start time/frame for later
             rightCategoryLabel_2.tStart = t  # underestimates by a little under one frame
             rightCategoryLabel_2.frameNStart = frameN  # exact frame index
             rightCategoryLabel_2.setAutoDraw(True)
         
         # *leftAttributeLabel_2* updates
-        if t >= 0.0 and leftAttributeLabel_2.status == NOT_STARTED:
+        if t >= 0.75 and leftAttributeLabel_2.status == NOT_STARTED:
             # keep track of start time/frame for later
             leftAttributeLabel_2.tStart = t  # underestimates by a little under one frame
             leftAttributeLabel_2.frameNStart = frameN  # exact frame index
             leftAttributeLabel_2.setAutoDraw(True)
         
         # *rightAttributeLabel_2* updates
-        if t >= 0.0 and rightAttributeLabel_2.status == NOT_STARTED:
+        if t >= 0.75 and rightAttributeLabel_2.status == NOT_STARTED:
             # keep track of start time/frame for later
             rightAttributeLabel_2.tStart = t  # underestimates by a little under one frame
             rightAttributeLabel_2.frameNStart = frameN  # exact frame index
             rightAttributeLabel_2.setAutoDraw(True)
         
         # *orLeft_2* updates
-        if t >= 0.0 and orLeft_2.status == NOT_STARTED:
+        if t >= 0.75 and orLeft_2.status == NOT_STARTED:
             # keep track of start time/frame for later
             orLeft_2.tStart = t  # underestimates by a little under one frame
             orLeft_2.frameNStart = frameN  # exact frame index
             orLeft_2.setAutoDraw(True)
         
         # *orRight_2* updates
-        if t >= 0.0 and orRight_2.status == NOT_STARTED:
+        if t >= 0.75 and orRight_2.status == NOT_STARTED:
             # keep track of start time/frame for later
             orRight_2.tStart = t  # underestimates by a little under one frame
             orRight_2.frameNStart = frameN  # exact frame index

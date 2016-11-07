@@ -1,27 +1,28 @@
 # Implicit Association Test written in PsychoPy
 
 ## License
-Copyright (c) Ian Hussey 2016 (ian.hussey@ugent.be)
+(c) Ian Hussey 2016 (ian.hussey@ugent.be) GPLv3+
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 ## Version
-1.1 (5/5/2016)
 
-Written in PsychoPy 1.82.01
+1.2 (5/5/2016)
+
+Requires PsychoPy 1.82.01
 
 ## Notes
 - This implimentation of the IAT has high fidelity to the procedure described in Nosek et al. (2007: the IAT at 7), and to the standard IAT Inquisit script provided by Millisecond. See block layout below. IMHO, fidelity is higher than other freely available alternatives, such as the FreeIAT or OpenIAT (e.g., the latter has a different block layout, and also uses a combination of free responding and accuracy feedback, where the IAT almost invariably uses one or the other but not both).
-- You can run either the .psyexp file or the .py file inside PsychoPy. The task was written in version 1.82.01. Other versions may produce unexpected behaviour. The py file should have greater cross platform support; if you run into errors with the .psyexp file use the .py instead.
+- You can run either the .psyexp file or the `.py` file inside PsychoPy. The task was written in version 1.82.01. Other versions may produce unexpected behaviour. The py file should have greater cross platform support; if you run into errors with the `.psyexp` file use the `.py` instead.
 - The included stimulus file employs pictures as category stimuli and words as attribute stimuli. However, this implimentation can display any combination of words and/or images for both categories and attributes. To do this, edit the highlighted rows in the excel files: if using text stimuli, put "blank.png" in the appropriate image exemplar column in the stimuli.xlsx file. If using image stimuli, put a single space character in the appropriate column, as empty cells will cause the task to crash and Psychopy will throw an undefined variable error.
 - The escape key quits the task at any time. 
 - The order of presentation of blocks within the task (e.g., whether participants get flowers-positive/insects-negative or flowers-negative/insects-positive first) is determined by the participant code. Odd numbered participants get the former, even numbered participants get the latter. Be careful that this counterbalancing does not covary with your counterbalancing of other experimental conditions.
-- Block length is fixed by the code and the block_layout.xlsx file, and is independent of the number of stimuli exemplars.
+- Block length is fixed by the code and the `block_layout.xlsx` file, and is independent of the number of stimuli exemplars.
 - The number of exemplars can vary freely; it's currently 5 but can be more or less without this affecting the block length. However, it must be identical across categories. If 5 exemplars are used in each category then each block will present all exemplars an equal number of times. Using more or less exemplars than this will result in the correct number of trials and counterbalancing of trial-types, but a (necessarially) unequal number of presentations of each exemplar.  
 - Accuracies can be calculated by reverse scoring the feedbackResponse.corr variable. 
-- .psydat and .csv files are produced for each participant. The .csv file is sufficient to most analyses (e.g., calculation of D scores).
+- `.psydat` and `.csv` files are produced for each participant. The `.csv` file is sufficient to most analyses (e.g., calculation of D scores).
 - R script in the analysis folder produces D1 scores (and D1 scores for each stimulus category parcel), as well as accuracy and latency summary data.
 - All stimuli and instructions can be altered by editing the excel files. Indeed, all strings presented within the task are variables, so translating the task into other languages only requires changes to the stimuli and instructions files.
 - ITI is set to 250 ms (see Nosek et al., 2007: the IAT at age 7).
@@ -48,7 +49,16 @@ The current version follows the block layout described in Nosek et al. (2007: th
 - Add internal consistency calculation to R script
 
 ## Changelog
+### 1.2
+
+- Removed calculation of D1 scores for trial types (e.g., calculated only from insects trials), as this is uncommon in the literature.
+
+
+- Corrected calculation of D1 scores. R script did not take block order into account. Thanks to Jamie Cummins for feedback on this.
+- Corrected order of blocks 1 and 2. Task is now in better in line with Nosek et al. (2007).
+
 ### 1.1
+
 - Seperated stimuli file into exemplars and block_layout. Multiplier is determined by the number of exemplars. As such, the block lengths are fixed by the code, but the number of exemplars can vary freely (although they must be equal across trial types, e.g., all must have N).
 
 ### 1.0.1
