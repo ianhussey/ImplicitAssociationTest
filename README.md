@@ -56,6 +56,7 @@ The current version follows the block layout described in Nosek et al. (2007: th
 
 - Corrected calculation of D1 scores. R script did not take block order into account. Thanks to Jamie Cummins for feedback on this.
 - Corrected order of blocks 1 and 2. Task is now in better in line with Nosek et al. (2007).
+- R script auto now installs its depencies, and produces split half D scores for internal reliability estimations.
 
 ### 1.1
 
