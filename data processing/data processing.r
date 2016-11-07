@@ -26,9 +26,20 @@ rm(list=ls())
 ########################################################################
 # Dependencies
 ########################################################################
-library(plyr) #must import before dplyr
+
+# function to check if libraries are installed, and install them if not
+auto_install_dependencies <- function(pkg){
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg)) 
+    install.packages(new.pkg, dependencies = TRUE)
+}
+packages <- c("plyr", "tidyverse", "data.table", "pim")
+auto_install_dependencies(packages)
+
+library(plyr) # must import before dplyr
 library(tidyverse)
 library(data.table)
+library(pim)
 
 ########################################################################
 # Data acquisition and cleaning
