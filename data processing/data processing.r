@@ -78,7 +78,11 @@ D1_df <-
          IAT_D1 = round((IAT_D1a + IAT_D1b)/2, 2),
          block_order = (participant - 1) %% 2 + 1, # set block order based on modulus of the participant code, as in the psychopy script 
          IAT_D1 = ifelse(block_order == 1, IAT_D1,  # D1 score rectifications for block order. if ==2, invert D1 score
-                         ifelse(block_order == 2, IAT_D1 * -1, "error"))) %>%
+                         ifelse(block_order == 2, IAT_D1 * -1, "error")),
+         IAT_D1a = ifelse(block_order == 1, IAT_D1a,  # D1 score rectifications for block order. if ==2, invert D1 score
+                         ifelse(block_order == 2, IAT_D1a * -1, "error")),
+         IAT_D1b = ifelse(block_order == 1, IAT_D1b,  # D1 score rectifications for block order. if ==2, invert D1 score
+                         ifelse(block_order == 2, IAT_D1b * -1, "error"))) %>%
   select(participant, IAT_D1, IAT_D1a, IAT_D1b)
 
 ########################################################################
