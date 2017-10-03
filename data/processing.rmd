@@ -1,0 +1,114 @@
+---
+title: "Calculate *D*1 scores and summary statistics"
+author: "Ian Hussey^[Ghent University. Email: ian.hussey@ugent.be]"
+output:
+  html_document:
+    code_folding: hide
+    highlight: haddock
+    theme: flatly
+    toc: yes
+    toc_float: yes
+---
+
+```{r}
+
+# dependencies
+# check if libraries are installed, and install them if not
+auto_install_dependencies <- function(pkg){
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg)) 
+    install.packages(new.pkg, dependencies = TRUE)
+}
+packages <- c("plyr", "tidyverse", "data.table")
+auto_install_dependencies(packages)
+
+library(plyr) # must import before dplyr
+library(tidyverse)
+library(data.table)
+
+
+# data acquisition and cleaning
+files <- list.files(pattern = "\\.csv$")  # Create a list of the csv files in the current folder
+input_data <- tbl_df(rbind.fill(lapply(files, fread, header=TRUE))) %>%
+  # Make some variable names more transparent, plus rectify the the accuracy variable
+  rename(block = blocks.thisN, # current block
+         trial = trials.thisN, # trial order of presentation within each block
+         rt = requiredResponse.rt, # first correct response rt
+         accuracy = feedbackResponse.corr, # accuracy of the first response (currently reversed: 0 = correct)
+         trial = trials.thisN) %>% # trial by order of presentation within each block
+  mutate(accuracy = abs(accuracy - 1), # recitfies the direction of accuracy so that 0 = error and 1 = correct.
+         block = block + 1) # recifies block to be 1 to 7 rather than 0-6
+
+
+# demographics
+demographics_data <- input_data %>%
+  select(participant,
+         gender,
+         age,
+         expName,
+         date) %>%
+  distinct(participant, .keep_all = TRUE)
+
+
+# D1 scores
+D1_data <- input_data %>%
+  group_by(participant) %>%
+  filter(rt <= 10000) %>%
+  summarize(RT_block3_m = mean(rt[block == 3]),  # blocks 3 and 6
+            RT_block6_m = mean(rt[block == 6]),
+            RT_block3and6_SD = sd(rt[block == 3 | block == 6]),
+            RT_block4_m = mean(rt[block == 4]),  # blocks 4 and 7
+            RT_block7_m = mean(rt[block == 7]),
+            RT_block4and7_SD = sd(rt[block == 4 | block == 7])) %>%
+  mutate(difference_a = RT_block6_m - RT_block3_m,
+         IAT_D1a = difference_a / RT_block3and6_SD,
+         difference_b = RT_block7_m - RT_block4_m,
+         IAT_D1b = difference_b / RT_block4and7_SD,
+         IAT_D1 = round((IAT_D1a + IAT_D1b)/2, 2),
+         block_order = (participant - 1) %% 2 + 1, # set block order based on modulus of the participant code, as in the psychopy script 
+         IAT_D1 = ifelse(block_order == 1, IAT_D1,  # D1 score rectifications for block order. if ==2, invert D1 score
+                         ifelse(block_order == 2, IAT_D1 * -1, "error")),
+         IAT_D1a = ifelse(block_order == 1, IAT_D1a,  # D1 score rectifications for block order. if ==2, invert D1 score
+                          ifelse(block_order == 2, IAT_D1a * -1, "error")),
+         IAT_D1b = ifelse(block_order == 1, IAT_D1b,  # D1 score rectifications for block order. if ==2, invert D1 score
+                          ifelse(block_order == 2, IAT_D1b * -1, "error"))) %>%
+  select(participant, IAT_D1, IAT_D1a, IAT_D1b)
+
+
+# accuracy summary
+accuracy_summary_df <- input_data %>%
+  group_by(participant) %>%
+  summarize(critical_blocks_percentage_accuracy = round(sum(accuracy[block == 3 |
+                                                                       block == 4 | 
+                                                                       block == 6 | 
+                                                                       block == 7]) / 120, 2)) # 120 critical trials
+
+
+# latency summary 
+latency_summary_df <- input_data %>%
+  group_by(participant) %>%
+  filter(block == 3 | block == 4 | block == 6 | block == 7) %>%
+  mutate(fast_trial = ifelse(rt < .3, 1, 0)) %>%
+  summarize(critical_blocks_mean_rt = round(mean(rt), 2), 
+            percent_fast_trials = sum(fast_trial)/120) %>%  # 120 critical trials
+  mutate(exclude_based_on_fast_trials = ifelse(percent_fast_trials>=0.1, TRUE, FALSE)) %>%  # exclusions based on too many fast trials is part of the D1 algorithm
+  select(participant,
+         critical_blocks_mean_rt,
+         exclude_based_on_fast_trials)
+
+
+# join
+combined_df <- 
+  join_all(list(demographics_data,
+                accuracy_summary_df,
+                latency_summary_df,
+                D1_df),
+           by = "participant",
+           type = "full")
+
+
+# write to file
+
+combined_df %>% write_csv(file = "processed_IAT_data.csv")
+
+```
