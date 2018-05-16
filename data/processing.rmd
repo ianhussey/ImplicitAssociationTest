@@ -10,6 +10,14 @@ output:
     toc_float: yes
 ---
 
+Positive D1 scores refer to faster responding on the block where response mappings are shared between trial types 1 & 3 and 2 & 4 (e.g., flowers-positive/insects-negative) than the block where response mappings are shared between trial types 1 & 4 and 2 & 3 (e.g., flowers-negative/insects-positive).
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      message = FALSE, 
+                      warning = FALSE)
+```
+
 ```{r}
 
 # dependencies
@@ -102,13 +110,13 @@ combined_df <-
   join_all(list(demographics_data,
                 accuracy_summary_df,
                 latency_summary_df,
-                D1_df),
+                D1_data),
            by = "participant",
            type = "full")
 
 
 # write to file
 
-combined_df %>% write_csv(file = "processed_IAT_data.csv")
+combined_df %>% write_csv("processed_IAT_data.csv")
 
 ```

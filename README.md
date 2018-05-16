@@ -23,13 +23,14 @@ The IAT is an implicit measure of automatic behaviour or automatic biases (Green
 ## Requirements
 
 - [PsychoPy v1.90](https://github.com/psychopy/psychopy/releases/) or above
+  - NB if running the .py file, you must use the Python 2 version of PsychoPy and not the Python 3 version. Opening the .psyexp file in either version and then compiling a .py file from this should produce a .py file that will run in the current PsychoPy version. 
   - A free and open source program for delivering psychology experiments written in Python. See [here for documentation](http://www.psychopy.org/documentation.html).
   - PsychoPy runs locally on Windows, Mac, and Linux. It's not possible to run PsychoPy scripts online.
 - [RStudio](https://www.rstudio.com/), a very user friendly interface for R that integrates Knitr and RMarkdown documents, which are used by the processing script to score the data.
 
 ## Usage
 
-- You can run either the .psyexp file or the `.py` file inside PsychoPy. The task was written in version 1.82.01. Other versions may produce unexpected behaviour. The py file should have greater cross platform support; if you run into errors with the `.psyexp` file use the `.py` instead.
+- You can run either the `.psyexp file` or the `.py` file inside PsychoPy. However, if using the .py file, you must use the Python 2 version of PsychoPy and not the Python 3 version. Opening the .psyexp file in either version and then compiling a .py file from this should produce a .py file that will run in the current PsychoPy version. The task was written in version 1.82.01 but has been tested to run in later versions. 
 - The included stimulus file employs pictures as category stimuli and words as attribute stimuli. However, this implimentation can display any combination of words and/or images for both categories and attributes. To do this, edit the highlighted rows in the excel files: if using text stimuli, put "blank.png" in the appropriate image exemplar column in the stimuli.xlsx file. If using image stimuli, put a single space character in the appropriate column, as empty cells will cause the task to crash and Psychopy will throw an undefined variable error.
 - The escape key quits the task at any time. 
 - The order of presentation of blocks within the task (e.g., whether participants get flowers-positive/insects-negative or flowers-negative/insects-positive first) is determined by the participant code. Odd numbered participants get the former, even numbered participants get the latter. Be careful that this counterbalancing does not covary with your counterbalancing of other experimental conditions.
@@ -74,6 +75,10 @@ Very little familiarity with R/RStudio is needed to use this script.
 
 1. Open the script in RStudio.
 2. Click "Knit", this will run the script, save the processed output, and create a html file record.
+
+#### Interpretation of D1 scores
+
+Positive *D*1 scores refer to faster responding on the block where response mappings are shared between trial types 1 & 3 and 2 & 4 (e.g., flowers-positive/insects-negative) than the block where response mappings are shared between trial types 1 & 4 and 2 & 3 (e.g., flowers-negative/insects-positive).
 
 ## Known issues
 1. If participants get 100% of trials correct throughout the whole task then three incorrect response columns will not be created for that participant. This is highly unlikely, and futhermore is not a problem if your data processing workflow merges data files across participants based on column header names (e.g., with R using readr's read.csv) rather than column positions (e.g., a SPSS script using a GET command, or some other R commands which assume equivalent table shapes).
